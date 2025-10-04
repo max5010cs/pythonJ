@@ -1,0 +1,8 @@
+print
+input
+.upper()
+.lower()
+.title()
+f
+\t
+\n
