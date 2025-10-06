@@ -108,4 +108,17 @@
 # print(f'{message.title()}!! \n Yep you are right!!')
 # print(f'\t{message.lower()}\n\tYes you are right bro!')
 
-STRIPPING WHITE SPACES
+#STRIPPING WHITE SPACES
+
+
+
+# bool_str = "True"
+# bool_val = bool(bool_str)
+# print(bool_val)
+
+# num_int = 0
+# bool_val = bool(num_int)
+# print(bool_val)
+
+
+
