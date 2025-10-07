@@ -3,6 +3,9 @@ input
 .upper()
 .lower()
 .title()
+.capitalize()
+.swapcase()
+.casefold()
 f
 \t
 \n
