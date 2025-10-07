@@ -6,3 +6,4 @@ input
 f
 \t
 \n
+.format()

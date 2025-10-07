@@ -120,5 +120,95 @@
 # bool_val = bool(num_int)
 # print(bool_val)
 
+# Python, bool (short for Boolean) is a fundamental data type that can only have one of two possible values: True or False.
+# Think of it as a simple on/off switch, a yes/no answer, or a statement being correct or incorrect.
+
+# Python, bool (short for Boolean) is a fundamental data type that can only have one of two possible values: True or False.
+# Think of it as a simple on/off switch, a yes/no answer, or a statement being correct or incorrect.
+
+# num_int = 0
+# print(bool(num_int))
+
+# space = (" ")
+# print(bool(space))
 
 
+
+# num_float = 3.14
+# num_int = float(num_float)
+# print(num_int)
+
+# n1 = 6.454
+# print(bool(n1))
+
+
+
+# message = "My name is {} and i am a fucking {}".format("Max", "idiot") 
+# print(message)
+
+# name = input("wtf is your name? ")
+# print("I dont reall care {}!".format(name.title()
+
+# name = input("Who are yooou?")
+# # print("Mr {} can you step outside so we can {}, we got a {}".format(name.swapcase(), reason="talk".upper(), r1="warrant warrant warrant".capitalize()))
+
+# # The main string must use {reason} and {r1} placeholders
+# print("Mr {} can you step outside so we can {reason}, we got a {r1}.".format(
+#     name.swapcase(),          # 1. Positional argument
+#     reason="talk".upper(),    # 2. Keyword argument
+#     r1="warrant...".capitalize() # 3. Correct Keyword argument syntax
+# ))
+# name = input("What is your name? ")
+# car = input("What was your first car? ")
+# the_date = input(f"When did you buy your fist car, {car}? ")
+# data = f"His name is {name} and his first car was {car} which he bought in {the_date}" 
+
+# print(data)
+
+
+
+# name = input("What is your name? ")
+# the_int = input("Do you like riding a bike? ")
+# the_bike = input("What was your first bike {}? ".format(name.upper()))
+# date = input("When did you buy your first bike, {}? "
+#              .format(the_bike.capitalize()))
+# data = 'His name is {}, and he has is interested in riding a bike and he bought his first bike {} in {}.'
+# result = data.format(
+#     name.swapcase(),
+#     the_bike.title(),
+#     date
+# )
+# # init = the_bike.format(
+# #     name.uppper()
+# # )
+# print(result)
+
+
+
+# the_college_name = input("What is the name of your college? ")
+# date_found = input("When was {} founded? "
+# .format(
+#     the_college_name.title()
+# ))
+# first_year_st_number = input("How many student have you had in {}? "
+#                              .format(
+#                                  date_found
+#                              ))
+# ceo = input("Who was the CEO of the college {}? "
+#             .format(
+#                 the_college_name.title()
+#             ))
+# data = "{} was founded in {} and it had over {} in the first year and CEO was {}.".format(the_college_name.title(), int(date_found), int(first_year_st_number), ceo.title())
+# print(data)
+
+
+# n1 = 1
+# n2 = 2
+# adding = f"{n1 + n2}"
+# print(adding)
+
+
+n1 = 23
+n2 = 34
+substraction = f"{n1-n2}"
+print(substraction)
