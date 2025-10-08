@@ -208,7 +208,36 @@
 # print(adding)
 
 
-n1 = 23
-n2 = 34
-substraction = f"{n1-n2}"
-print(substraction)
+# n1 = 23
+# n2 = 34
+# substraction = f"{n1-n2}"
+# print(substraction)
+
+
+
+# message = "wassup {0} it is me {1}".format("homie", "Dane")
+# print(message)
+
+
+# message_rev = "wassup {1} it is me {1}"
+# res_m = message_rev.format("homie","jane")
+# print(res_m)
+
+
+# message = "Pull up your gun and choot me please."
+# lower_c = message.islower()
+# print(lower_c) wtf i ddnt know that i thought it is gonna do the same as .lower().
+
+# findings = "I ddnt find nothing from this research and i am still going to look for smht but i know i wont find shit".isupper()
+# print(findings)
+
+
+# summary = "i don't even know what i had yesterday for dinner, so please dont fucking ask".islower()
+# print(summary)
+
+# number = bool(90)
+# print(number)
+
+message = input("What is your take from this lesson dumbass -- ")
+ans = message.islower()   # it should return yes or no, not some kind of lowercasing sh*t!
+print(ans)
