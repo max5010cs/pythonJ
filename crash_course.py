@@ -238,6 +238,26 @@
 # number = bool(90)
 # print(number)
 
-message = input("What is your take from this lesson dumbass -- ")
-ans = message.islower()   # it should return yes or no, not some kind of lowercasing sh*t!
-print(ans)
+# message = input("What is your take from this lesson dumbass -- ")
+# ans = message.islower()   # it should return yes or no, not some kind of lowercasing sh*t!
+# # print(ans)
+
+# quest = input("What is your birthyear and day? ")
+# message = quest.upper().lower()
+# print(message)
+
+
+
+# message = input("wtf is your name mate? ")
+# result = message#.strip()
+
+# print(result)
+
+
+
+# message  = "hi mr can i have your phone and i donno why i even need it"
+# print(message)
+
+user_data = "he                    is 29 years old with two kids             ".strip()
+
+print(user_data)
