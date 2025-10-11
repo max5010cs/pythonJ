@@ -22,3 +22,7 @@ list()
 append()
 insert(,)  
 remove()
+del ...[]
+.pop()
+.clear()
+list *= .. 

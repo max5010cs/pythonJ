@@ -464,3 +464,96 @@
 # my_list[0].remove(1)
 # print(my_list)
 
+# my_list = [1,2,3,4]
+# del my_list[1]
+# print(my_list)
+
+# my_list = [1,2,4,34]
+# del my_list[-1]
+# print(my_list)
+
+# my_list = [1,2,3,4,3]
+# del my_list
+# print(my_list)
+
+# my_list = [1,2,33,4]
+# print(my_list)
+# pop_element = my_list.pop()
+# print(pop_element)
+
+# my_list = [1,2,3,4]
+# print(my_list.pop(0))
+
+
+# my_list = [1,2,3]
+# print(my_list) 
+# print(my_list.pop(0))
+# print(my_list)
+
+# my_list = [[1,2],[3,4],[5,6]]
+# print(my_list)
+# my_list.pop(0)
+# print(my_list.pop(0))
+# print(my_list)
+
+# my_list.pop(0)
+# print(my_list)
+
+# my_list = [1,3,4,5,]
+# my_list.clear()
+# print(my_list)
+
+# my_list = [1,2,34,5,5,6,4,"wasup","dummy"]
+# my_list.clear()
+# print(my_list)
+
+# my_list = ["wassup","mr","donut"]
+# my_list.clear()
+# print(my_list)
+# my_list.clear()
+# print(my_list)
+
+# my_list = [1,2,3]
+# my_list *=0
+# print(my_list)
+
+# # n1 = 2
+# n1 = 3
+# print(n1)
+
+
+# list = [1,2,3]
+# list *=3
+# print(list)
+
+# list = [1,2,3]
+# list *=2
+# print(list)
+
+
+# my_tuple = ([1,2],[3,4])
+# print(my_tuple)
+
+# my_tuple = ([1,2],[3,4])
+# print(my_tuple)
+# print(my_tuple[0][0])
+# print(my_tuple[0][1])
+# print(my_tuple[1][0])
+# print(my_tuple[1][1])
+# print(my_tuple[0][0], my_tuple[0][1], my_tuple[1][0], my_tuple[1][1])
+
+
+# my_tuple = ([1,2],[3,4])
+# my_tuple[0].append(5)
+# print(my_tuple*2)
+
+
+# my_tuple = ([1,2],[3,4])
+# my_tuple[1].insert(len(my_tuple),[5,6])
+# print(my_tuple)
+
+# my_tuple[1].pop(-1)
+# print(my_tuple)
+
+# print(my_tuple[0].pop(0))
+

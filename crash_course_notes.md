@@ -63,3 +63,19 @@ used just like int and it is used to turn strings into list
 used to put a value to a particular index   (1,2)  2 to index 1
 # i should be careful when using insert with coz that means insert BEFORE....
 # if i wanna insert to the end i can use len just like this len(my_list) meaning the length refers to the end argumement and insert puts after the that argument, or i can just use appen() which by default places to the end.
+
+
+
+# line 24
+takes a value not an argument, del my_list will delete the whole variable which then returns error
+
+# line 25
+takes an index
+
+# line 26
+takes an index
+it removes the valu in that index
+it can also print the value in that index if used with print
+
+# line 28
+*=x literally means repeat it x times 
