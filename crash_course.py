@@ -331,3 +331,136 @@
 # index_q = input("What index do you want? Please choose 4... ")
 # print(my_list[int(index_q)-3])
 
+# my_list = ["hi","hello"]
+# print(my_list[0].index("i"))
+
+# my_list = ["Hi","Hello","Wassup"]
+# print(my_list[-1][-1][0][0][-1][0][-1])
+
+# # my_list = [1,2,3,4]
+# # print(my_list[1][-1])
+
+
+# my_list = ["mr","donut"]
+# index = 2
+# print(my_list[1][index+1])
+
+# my_list = ["don't","do"]
+# element_at_index_1 = my_list[1]
+# print(element_at_index_1)
+
+# my_list = ["wassup","buddy"]
+# element = my_list[0][0]
+# print(element)
+
+# my_list = ["mr","hello"]
+# print(my_list[0].index("r"))
+
+
+# my_list = [["Herlo","dumbass"]]
+# element = my_list[0][0][3]
+# print(element)
+
+
+# my_list = [1,2,3,4]
+# print(my_list)
+# my_list.append(int("5"))
+# print(my_list)
+
+
+# my_list = ["do your homeword kiddo","go to the gyp fatass"]
+# my_list.append("do the laundry")
+# print(my_list)
+# quest = input("choose 3 please: ")
+# if int(quest) == 3:
+#     print(my_list[-1])
+# else:
+#     print("")
+
+
+
+
+# my_list = [1,2]
+# my_list.append([])
+# # print(my_list)
+
+# my_list = [1,2,3]
+# print(my_list)
+# another_list = [4,5,6]
+# my_list.append(another_list)
+# print(my_list)
+
+
+
+# list1 = [1,2,3,4]
+# list2 = [5,6,7,7]
+# res = list1 + list2
+# print(res)
+
+# my_list = [1,2,3]
+# the_number = "4"
+# result = my_list + list(the_number)
+# print(result)
+
+# my_list = [1,2,3]
+# print(my_list)
+# my_list.insert(0,0)
+
+
+# my_list = [1,2,3]
+# my_list.append(my_list)
+# print(my_list)
+
+
+# my_list = [1,2,3]
+# print(my_list)
+# my_list.insert(1,4)
+# print(my_list)
+
+# my_list = [1,2,3,4]
+# my_list.append((5,6))
+# print(my_list)
+
+# my_list = [1,2,3]
+# print(my_list)
+# my_list.insert(0,6)
+# print(my_list)
+
+# my_list = [1,2,[3,4]]
+# my_list.insert(-1,5)
+# print(my_list)
+
+# my_list = [1,2,[3,4]]
+# my_list.insert(3,5)
+# print(my_list)
+
+# my_list = [1,2,[3,4]]
+# my_list.insert(2,5)
+# print(my_list)
+
+# my_list = [1,2,3]
+# my_list.insert(-1,4)
+# print(my_list)
+
+# my_list = [1,2,3]
+# my_list.insert(len(my_list),4)
+# print(my_list)
+
+# my_list = [1,2,3,4]
+# index = 3
+# element = "wtf"
+# my_list.insert(0,element)
+# print(my_list)
+
+# my_list = [1,2,3,4]
+# my_list.remove(1)
+# print(my_list)
+
+# my_list = [1,2,[5,6],3,4,"hello"]
+# my_list[2].remove(5)
+# print(my_list)
+
+# my_list = [[1,2],[3,4],[5,6]]
+# my_list[0].remove(1)
+# print(my_list)
+

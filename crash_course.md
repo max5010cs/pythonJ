@@ -18,3 +18,7 @@ isupper()
 .lstrip()
 []  
 .index()
+list()
+append()
+insert(,)  
+remove()

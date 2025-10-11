@@ -54,3 +54,12 @@ use for list
 # line 20 
 is used to find the index of the (). means index of()
 
+# when using [] in order to get into the list, we cant push forward when we hit number itself but if it is a letter then 0 s and -1 s will not return error
+
+# line 21
+used just like int and it is used to turn strings into list
+
+# line 23
+used to put a value to a particular index   (1,2)  2 to index 1
+# i should be careful when using insert with coz that means insert BEFORE....
+# if i wanna insert to the end i can use len just like this len(my_list) meaning the length refers to the end argumement and insert puts after the that argument, or i can just use appen() which by default places to the end.
