@@ -258,6 +258,76 @@
 # message  = "hi mr can i have your phone and i donno why i even need it"
 # print(message)
 
-user_data = "he                    is 29 years old with two kids             ".strip()
+# user_data = "he                    is 29 years old with two kids             ".strip()
 
-print(user_data)
+# print(user_data)
+
+
+
+
+# mr_tab = "\t\t\thi\tim\ta\tmir\ttab\tand\ti\tdo\tusually\tput\tsome\tbig\tass\tspaces\tbetween\tjust\tlike\tthis "
+# print(mr_tab.strip())
+
+# mt_n_line = "hi im mr n line im not \nnigga line \ni am next line"
+# print(mt_n_line)
+
+# message = "Python is so boring ass lang".strip("g")
+# print(message)
+
+# message = "not gonna do frontend even if u shoot me".strip("n e")
+# print(message)
+
+
+# inn = "\n"
+# res = bool(inn)
+# print (inn)
+# print(res)
+
+
+# fav_game = "\tmy favourite game is gta V"
+# res = fav_game.lstrip()
+# print(res)
+
+
+# my_list = [1,2,3,4,5]
+# print(my_list)
+
+
+# my_list = [1,2,3,"   ",4,5]
+# print(my_list)
+
+# my_list = [1,2,3,4,5]
+# print(my_list[0])
+
+# my_list = [1,2,3,4,5]
+# print(my_list[-1])
+
+
+# my_list = [1,2,3,4,5]
+# index = my_list.index(2)
+# print(index)
+
+# my_list = [1,2,3,4,5]
+# print(my_list[2])
+
+
+# my_list = [1,2,3,4,5]
+# print(my_list.index(4))
+
+# my_list = [1,2,3,4,5]
+# print(my_list[2])
+
+# my_list = [[1,2],[3,4],[5,6]]
+# # print(my_list[-1][0])
+
+# my_list = [1,2,3,4,5]
+# print(my_list[-3])
+
+# my_list = [1,2,3,4,5]
+# index = 2
+# print(my_list[index+1])
+
+# my_list = [1,2,3,4,5]
+# index_q = input("What index do you want? Please choose 4... ")
+# print(my_list[int(index_q)-3])
+

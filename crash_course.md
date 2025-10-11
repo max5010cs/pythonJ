@@ -10,7 +10,11 @@ f
 \t
 \n
 .format()
-bool()   is there fucking smht. say yes or no
-islower()   say yes or no 
-isupper()   say yes or no
-.strip()     only the beginning and the end gets aaffected in terms of sspace removal
+bool()   
+islower()    
+isupper()   
+.strip()               
+.rstrip()
+.lstrip()
+[]  
+.index()

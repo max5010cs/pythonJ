@@ -35,3 +35,22 @@ VARIABLES
 
 # Python, bool (short for Boolean) is a fundamental data type that can only have one of two possible values: True or False.
 # Think of it as a simple on/off switch, a yes/no answer, or a statement being correct or incorrect.
+
+
+
+
+#  line 13
+is there fucking smht. say yes or no
+
+# line 14,15
+say yes or no
+
+# line 16
+can be used to remove space or character in the beginning and at the end   
+
+# line 19
+use for list
+
+# line 20 
+is used to find the index of the (). means index of()
+
