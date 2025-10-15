@@ -61,7 +61,7 @@ used just like int and it is used to turn strings into list
 
 # line 23
 used to put a value to a particular index   (1,2)  2 to index 1
-# i should be careful when using insert with coz that means insert BEFORE....
+# i should be careful when using insert with coz that means insert BEFORE.... or AT THAT EXACT POSITION (not the case with 0>x numbers)
 # if i wanna insert to the end i can use len just like this len(my_list) meaning the length refers to the end argumement and insert puts after the that argument, or i can just use appen() which by default places to the end.
 
 
@@ -79,3 +79,6 @@ it can also print the value in that index if used with print
 
 # line 28
 *=x literally means repeat it x times 
+
+# line 29
+constant is a veriable whose value doesnt change throughout the whole programm. Python programmers use capital letters to show that it is a constand or example: MAX_CONNECTIONS = 200

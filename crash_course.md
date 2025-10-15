@@ -26,3 +26,4 @@ del ...[]
 .pop()
 .clear()
 list *= .. 
+[constants]

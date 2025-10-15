@@ -557,3 +557,109 @@
 
 # print(my_tuple[0].pop(0))
 
+# underscore = 14_000_000_000
+# print(underscore)
+
+# x,y,x = 1,2,3
+# print(x)
+
+# MAX_CONNECTIONS = 5000
+# print(MAX_CONNECTIONS)
+
+# import this
+
+# list_of_b = ['trek','cannondale','redline','specialized']
+# print(list_of_b)
+
+# # bicycles = ['trek','cannondale','redline']
+# # print(bicycles[1])
+# bicycles = ['rek','cannondale','redline']
+# print(bicycles[2].upper())
+
+
+
+# bicycles = ['trek','cannondale','redline']
+# print(bicycles[0][1])
+
+# bicycles = ['redline','trek']
+# print(f'my first childhood bike was {bicycles[0].title()} model')
+
+# motor_bikes = ['honda', 'suzuki','kawasaki','yamaha']
+# print(motor_bikes)
+
+# motor_bikes[0] = 'yamahaaaaa'
+# print(motor_bikes)
+
+# motorbikes = ['yamaha','suzuki','kawasaki']
+# print(motorbikes)
+
+# motorbikes[0] = 't'
+# print(motorbikes)
+ 
+# motor_bikes = ['ducati','suzuki']
+# print(motor_bikes)
+
+# motor_bikes.append("kawasaki")
+# print(motor_bikes)
+
+# motorcycles = []
+# print(motorcycles)
+# motorcycles.append('ducati')
+# motorcycles.append('kawasaki')
+# motorcycles.append('Honda')
+# motorcycles.append('yamaha')
+# print(motorcycles)
+
+# motor_bikes = ['ducati','yamaha']
+# print(motor_bikes)
+# # motor_bikes.insert(-1,'kawasaki')  this doesnt work if i wanna add smht to th end
+# print(motor_bikes)
+# motor_bikes.insert(len(motor_bikes),'kawasaki')
+# print(motor_bikes)
+
+# motorcycles  = ['yamaha','ducati','kawasaki']
+# print(motorcycles)
+# # del motorcycles[-1]
+# # print(motorcycles)
+# del motorcycles[1]
+# print(motorcycles)
+
+# motorcycles = ['ducati','kawasaski','yamaha']
+# print(motorcycles)
+# popping = motorcycles.pop()
+# print(motorcycles)
+# print(popping)
+
+# motors = ['v6','v8','v10']
+# print(motors)
+# delete = motors.pop(0)
+# print(motors)
+# print(delete)
+
+# motors = ['v6','v8','v10']
+# print(motors)
+# fav = motors[0].upper()
+# print(motors)
+# print(f'My favourite motor engine is {fav.upper()}')
+
+# motorcycles = ['honda','kawasaki s1000rr','yamaha']
+# print(motorcycles)
+# popping = motorcycles.pop(1)
+# print(f'The last motorcycles i owned was {popping.title()}')
+
+# motorcycles = ['ducati','kawasaski','yamaha']
+# print(motorcycles)
+# motorcycles.remove('ducati')
+# print(motorcycles)
+
+# bikes = ['ducati', 'redline', 'kawasaki','redline']
+# print(bikes)
+# bikes.remove('redline')
+# print(bikes)
+
+bikes = ['redline','ducati','kawasaki']
+print(bikes)
+the_best = 'kawasaki'
+rem = bikes.remove(the_best)
+print(bikes)
+print(f'{the_best.capitalize()} is the best anyway')
