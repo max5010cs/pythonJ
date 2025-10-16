@@ -657,9 +657,97 @@
 # bikes.remove('redline')
 # print(bikes)
 
-bikes = ['redline','ducati','kawasaki']
-print(bikes)
-the_best = 'kawasaki'
-rem = bikes.remove(the_best)
-print(bikes)
-print(f'{the_best.capitalize()} is the best anyway')
+# bikes = ['redline','ducati','kawasaki']
+# print(bikes)
+# the_best = 'kawasaki'
+# rem = bikes.remove(the_best)
+# print(bikes)
+# print(f'{the_best.capitalize()} is the best anyway')
+
+
+# cars = ['bmw','toyota','tuautare','lambo']
+# print(cars)
+# cars.sort()
+# print(cars)
+
+# cars = ['bugatatta','feriririri','bmw']
+# print(cars)
+# cars.sort(reverse=True)
+# # print(cars)
+# cars = ['toyota','maxcyy','bugatti']
+# print(cars)
+# cars.sort()
+# print(cars)
+
+# types = ['toyota','ferrari','koenigsegg']
+# print(types)
+# types.sort(reverse=True)
+# # print(types)
+# cars = ['bugatti','bmw','toyota']
+# print(cars)
+# cars.sort(reverse=False)
+# print(cars)
+
+
+# cars = ['a','d','c','b']
+# print('Here is the original list: ')
+# print(cars)
+
+# print('\nHere is the sorted list: ')
+# print(sorted(cars))
+
+# print(f'Here is the original list again: {cars}')
+
+
+# cars = ['a','e','b','c']
+# print(f' Here is the original list: {cars}')
+# sorted_cars =sorted(cars)
+# print(f'Here is the sorted list: {sorted_cars}')
+# print(f'Org list again: {cars}')
+
+# print(f'org list : {cars}')
+
+# cars = ["a",'d','f']
+# print(cars)
+# sorted_type = sorted(cars,reverse=False)
+
+# cars = ['bugatti','audi','bmw','subaru']
+# print(cars)
+# cars.reverse()
+# print(cars)
+
+# cars = ['a','b','c','d']
+# length = len(cars)
+# print(f'we got {length} items in the list')
+
+locations = ['tashkent','bukxara','namangan','andijan']
+# print(locations)
+# using_sorted = sorted(locations)
+# # using_sort = locations.sort()
+# print(using_sorted)
+# print(locations)
+# using_sorted_for_reverse_alphabetic_order = sorted(locations,reverse=True)
+# print(using_sorted_for_reverse_alphabetic_order)
+# print(locations)
+
+# print(locations)
+# locations.reverse()
+# print(locations)
+# locations.reverse()
+# print(locations)
+
+# locations.sort()
+# print(locations)
+
+# locations.sort(reverse=True)
+# print(locations)
+
+# people_invited = ['max','jacob','elon musk','hanna']
+# n = len(people_invited)
+# print(f'I have invited {n} people for my birthday party')
+
+# list = [1,2,3,4,5]
+# print(list.index(2))
+
+list = [1,2,45,6,]
+print(list[-1])

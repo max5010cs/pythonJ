@@ -81,4 +81,8 @@ it can also print the value in that index if used with print
 *=x literally means repeat it x times 
 
 # line 29
-constant is a veriable whose value doesnt change throughout the whole programm. Python programmers use capital letters to show that it is a constand or example: MAX_CONNECTIONS = 200
+constant is a veriable whose value doesnt change throughout the whole programm. Python programmers use capital letters to show that it is a constant for example: MAX_CONNECTIONS = 200
+
+# line 30 
+sort()   the change is permanent. usage:   .sort()
+sorted()  the change is temporary. usage:  sorted(value comes here)
