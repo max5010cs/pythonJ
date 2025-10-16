@@ -86,3 +86,7 @@ constant is a veriable whose value doesnt change throughout the whole programm. 
 # line 30 
 sort()   the change is permanent. usage:   .sort()
 sorted()  the change is temporary. usage:  sorted(value comes here)
+
+# line 32
+reverse just reverses the order of items inside the list
+and it works permamanently and we want the list back we can just reverse it second time

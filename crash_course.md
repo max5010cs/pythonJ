@@ -29,3 +29,4 @@ list *= ..
 [constants]
 .sort()/.sort(reverse=True)
 sorted()/sorted(value, reverse=True)
+reverse()

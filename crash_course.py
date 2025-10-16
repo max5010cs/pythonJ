@@ -749,5 +749,6 @@ locations = ['tashkent','bukxara','namangan','andijan']
 # list = [1,2,3,4,5]
 # print(list.index(2))
 
-list = [1,2,45,6,]
-print(list[-1])
+# list = [1,2,45,6,]
+# print(list[-1])
+
