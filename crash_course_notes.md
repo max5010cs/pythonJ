@@ -90,3 +90,6 @@ sorted()  the change is temporary. usage:  sorted(value comes here)
 # line 32
 reverse just reverses the order of items inside the list
 and it works permamanently and we want the list back we can just reverse it second time
+
+
+#  using append we cant add lists togther but we can insert one into another, if i wanna add then i can just use +

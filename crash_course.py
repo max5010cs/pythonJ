@@ -752,3 +752,113 @@ locations = ['tashkent','bukxara','namangan','andijan']
 # list = [1,2,45,6,]
 # print(list[-1])
 
+# here comes the loops
+
+
+
+# magicians = ['alice','alex','jacob','max']
+# for magician in magicians:
+#     print(magician)
+
+# cars_list = ['bmw','tuatara','tesla','RR']
+# cars_sorted = sorted(cars_list)
+# print('Fav cars: ')
+# for cars in cars_sorted:
+#     print(cars)
+
+# list = [1,2,34,'mrbumba']
+# print(list[-2])
+
+# list = [1,2,3]
+# app = list.append([])
+# print(list)
+
+
+#print(app)
+
+# list1 = [1,23,4]
+# print(list1)
+# list2 = [5,6,7]
+# print(list2)
+# app = list1.append(list2)
+# print(list1)  # we should get none
+
+
+# list_1 = [1,2,3]
+# list_2 = [4,5,6]
+# app = list_1 + list_2
+# print(list_1)
+# print(list_2)
+# print(f'added together: {app}')
+
+
+# list_ = [1,2,3]
+# my_string = 'hello'
+# adding = list_ + list(my_string)
+# print(adding)
+
+
+
+# # my_list = [1, 2, 3]
+# # my_string = '456'
+# # result = my_list + my_string
+# # print(result)
+
+
+
+# my_list = [1, 2, 3]
+# my_string = '456'
+# result = my_list + list(my_string)
+# print(result)
+
+
+# # DEL TAKES AN INDEX
+# list = [1,23,444,4,7]
+# del list[0]
+# print(list)
+
+# list = [1,2,4]
+# del list
+# print(list)
+
+
+# my_list = [1, 2, 3]
+# del my_list
+# print(my_list)
+
+# my_list = [1,2,3]
+# popping = my_list.pop(0)
+# print(my_list)
+# print(popping)
+# my_list = [1, 2, 3]
+# my_list.clear()
+# print(my_list)
+
+
+# my_list = [1,2,3]
+# my_list.clear()
+# print(my_list)
+
+# my_list = [1, 2, 3]
+# my_list *= 4
+# print(my_list)
+
+# my_tuple = ([1,2],[3,4])
+# print(my_tuple[0][0])
+# my_tuple = [[1, 2], [3, 4]]
+# my_tuple[0].append(5)
+# print(my_tuple)  
+
+# my_tuple = ([1, 2], [3, 4])
+# my_tuple[0].insert(1, [5, 6])
+# print(my_tuple) 
+
+# t = (1, 2, 3)
+# lst = list(t)
+# print(lst)
+# lst.append(4)
+# t = tuple(lst)
+# print(lst)
+# my_tuple = ([1, 2], [3, 4])
+# my_tuple[0].append([5,6])
+# print(my_tuple)  
