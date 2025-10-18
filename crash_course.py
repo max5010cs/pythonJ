@@ -720,7 +720,7 @@
 # length = len(cars)
 # print(f'we got {length} items in the list')
 
-locations = ['tashkent','bukxara','namangan','andijan']
+# locations = ['tashkent','bukxara','namangan','andijan']
 # print(locations)
 # using_sorted = sorted(locations)
 # # using_sort = locations.sort()
@@ -862,3 +862,139 @@ locations = ['tashkent','bukxara','namangan','andijan']
 # my_tuple = ([1, 2], [3, 4])
 # my_tuple[0].append([5,6])
 # print(my_tuple)  
+
+
+# number = " "
+# print(bool(number))
+
+# empty_list = [ ]
+# print(bool(empty_list))
+
+#   IF THE THERE IS SPACE INSTEAD OF A STRING FOR A VARIABLE THEN IT IS TRUE BUT IF IT IS LIST THEN SPACE DOES NOT MATTER, STILL FALSE
+
+# true_as_a_string = "True"
+# print(bool(true_as_a_string))
+
+# true_string = True
+# # print(true_string)
+# b = ""
+# a = b
+
+# print(bool(a))
+
+# false_string = "False"
+# print(bool(false_string))
+
+
+# false_as_string = not False
+# print(bool(false_as_string))
+
+# result = not (5>3)
+# print(bool(result))
+
+# fruits = ["apple","banana","orange"]
+# is_there_smht = bool(fruits)
+# print(is_there_smht)
+
+# value = None 
+# print(bool(value))
+
+# value = "Yes"
+# print(bool(value))
+
+# # Equal to: ==
+# 5 == 5
+# "apple" == "orange"
+
+# # Not equal to : !=
+# 3 != 4
+# "cat" != "cat"
+
+# Greater than : >
+# 10 > 5
+# 7 > 9
+
+# Greate than or equal to : >=
+# 7>=7 # True
+# 12 >= 15 # False
+
+# print(5 == "5")
+# print(True!=1)
+
+# print(4>3==3)
+
+# x = 10 
+# y = 7
+# x > y
+# x != 10 
+
+# "apple" == "apple"  # true
+# "cat" > "dog" # false
+
+
+# (1, "apple") == (1, "apple") # true
+
+
+# greater_than = 5 > 3
+# less_than = 2<1
+# equal_to = 10==10
+# not_equal_to = 1!=1
+
+# and_op = (4 > 2) and (6 < 8)
+# print(and_op)
+# equal = (3==3) or (2!=2)
+# print(equal)
+# not_ = not(5>10)
+# print(not_)
+
+# n1 = (5 > 3) and (10 < 7)
+# print(n1)
+
+# n2  = (3 != 4) or (6 <= 9)
+# print(n2)
+
+# x = 5
+
+# if x > 0:
+#     print("x is positive".title())
+# else:
+#     ""
+
+# x = -3 
+# if x > 0:
+#     print("x is positive".capitalalize())
+
+# else:
+#     print("X is not positive")
+
+# x = 0
+# if x > 0:
+#     print("X is positive")
+# elif x < 0:
+#     print("x is negative")
+# else:
+#     print("X is zero".upper())
+
+# x = 10
+# if x > 0:
+#     if x % 2 == 0:
+#         print("x is a positive even number")
+#     else:
+#         print("x is a positive odd number")
+
+# x = 10
+# y = 5
+
+# if x > 0 and y > 0:
+#     print("x and y are both positive")
+
+# x = 5
+# y = -5
+
+# print(x > 0 or y > 0)
+#     # print("At least one of x and y is positive")
+
+# x = 5
+
+# if not x < 0:
+#     print("x is not negative")
