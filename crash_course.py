@@ -1035,5 +1035,196 @@
 # print(f'Thanks,{magician.title()}')
 
 
-message = 'Hello David'
-print(message)
+# message = 'Hello David'
+#    print(message)    # Error: Unexepected indent
+
+# my_string  = "Hello world"
+
+# for character in my_string:
+#     print(character)
+
+# my_list = [1,2,3,4,5]
+
+# max_value = my_list[0]
+# for number in my_list:
+#     if number > max_value:
+#         max_value = number
+# print(max_value)  # my guess is 5
+
+# my_list = [5,3,2,1,4]
+
+# max_value = my_list[0]
+
+# for number in my_list:
+#     if number > max_value:
+#         max_value = number
+#         print(max_value)  #my guess is 
+
+
+# my_list = [5,3,1,4,2]
+
+# sorted_list = []
+
+# for number in sorted(my_list):
+#     sorted_list.append(number)
+# print(sorted_list)  # my guess is, in this case i just prints the sorted list 1,2,3,4,5 but if use print inside for then it si gonna print every step 
+
+# my_list = [5,2,3,4,1]
+# sorted_list = []
+
+# for number in sorted(my_list):
+#     sorted_list.append(number)
+#     print(sorted_list)
+
+
+# my_list = [1,2,3,4,1,5,3]
+# unique_list  = []
+
+# for number in my_list:
+#     if number not in unique_list:
+#         unique_list.append(number)
+#         print(unique_list)  # my guess is: in this case 1,2,3,4,5, if print is insdie loop then triangle, if print is inside if then still triangle.
+# # mistake, if the print is inside the for loop then it will print every step even if smht is not appended it will print the last situation.
+
+# my_list = [1,2,3,4,4,4,4,4,4,5]
+# unique_list = []
+
+# for number in my_list:
+#     if number not in unique_list:
+#         unique_list.append(number)
+#     print(unique_list)
+
+# my_list = [1,2,3,4,5]
+# filtered_list = []
+
+# for number in my_list:
+#     if number > 3:
+#         filtered_list.append(number)
+
+# print(filtered_list)  # my guess is: it should print last result of 4,5 but if i use print inside the for loop and then im gonna get triangle but starting with 3 empty lists and then 4 and then 4,5. but if i use the print inside the if then im gonna get triange lvl2
+
+# my_list = [1,2,3,4,5]
+# filtered_list= []
+
+# for number in my_list:
+#     if number > 3:
+#         filtered_list.append(number)
+#     print(filtered_list)
+
+
+# my_list = [1,2,3,4,5]
+# filtered_list = []
+
+# for number in my_list:
+#     if number > 3:
+#         filtered_list.append(number)
+#         print(filtered_list)
+          
+
+# students = [("John", 90), ("Mike", 80), ("Sarah", 95)]
+
+# print("Names\t\t\tScores\n")
+# for name,grade in students:
+#     # print(f'Names\t\t\tScores\n\n{name,grade}')
+#     print(f'{name}\t\t\t{grade}')
+# # this was clean, love it
+
+
+
+
+# for num in range(0,10,2):
+#     print(num)
+
+# fruits = ["apple","banana",'cherry']
+# for fruit in fruits:
+#     # print(fruit) 
+
+#     if fruit == "banana":
+#         # print(fruit)
+#         break
+        
+#     print(fruit)
+      # my guess is banana
+
+
+
+# fruits = ['apple','banana','cherry']
+# for i in range(len(fruits)):
+#     print(i,fruits[i])  # my guess: it is gonna be 0 - fruit name and 1 - fruit name ...
+
+# fruits = ['apple','banana','cherry']
+# for fruit in fruits:
+#     if fruit =="banana":
+#         break
+#     print(fruit)
+
+
+# matrix = [[1,2],[3,4]]
+# for row in matrix:
+#     for num in row:
+#         print(num)                   # my guess:  we gota have two columns and first one with 1 and 2 and second one is 3 and 4 or rowss like 1,3 and 2,4
+
+
+# matrix = [[1, 2], [3, 4]]
+# for row in matrix:
+#     print(row)
+# # i was wrong and i understoof that it coz the code is aactually trying to enter isnde the list
+
+
+# #   for num in row:
+# #     print(num)
+
+
+
+# numbers = [1,2,3]
+# squares = []
+# for num in numbers:
+#     square = num ** 2
+#     squares.append(square)
+# print(squares)
+
+
+# my_list = [1,2,3,4,5]
+# total = 0
+# for number in my_list:
+#     total += number
+#     print(total)
+
+
+# total = 0
+# for number in range(1,101):
+#     total+= number
+
+
+# average = 0
+# for number in range(1,101):
+#     average += number
+
+# average /=100
+
+# print(average)  # my guess is 50.5 and i was right
+
+
+# my_list = [1,2,3,4,5]
+
+# max_value = my_list[0]   #  1 | 1 | 3 | 4 | %
+# for index in range(1, len(my_list)):  # this gives 1,2,3,4
+#     if my_list[index] > max_value:     # 1 > 1 |  3 > 1 |  4 > 3 | 5 > 4
+#         max_value = my_list[index]    # 3 | 4 | 5
+# # so my guess: as print is required to print the last max_value then it must be 5
+# print(max_value)
+
+
+# my_list = [1,2,3,1,4,5,3]
+
+# unique_list = []
+# for index in range (len(my_list)):   # 7 >>>>>>>>> 0,1,2,3,4,5,6
+
+#     if my_list[index] not in unique_list:
+#         unique_list.append(my_list[index])
+# # my guess 1,2,3,4,5
+# print(unique_list)
+
+
+
+# LEFT AT EX 17

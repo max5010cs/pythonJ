@@ -35,3 +35,12 @@ reverse()
 <>
 >=
 =<
+if
+elif
+else
+for
+in
+not in
+and 
+or
+
