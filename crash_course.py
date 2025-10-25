@@ -998,3 +998,42 @@
 
 # if not x < 0:
 #     print("x is not negative")
+
+
+# x = 6 * 7
+# print(x)
+
+# # WORKING WITH LIST
+
+# magicians = ['alice','daivd','carolina']
+# for magician in magicians:
+#     print(magician)
+
+
+# magicians = ['alice','brat','david']
+# for magician in magicians:
+#     print(f'{magician.title()}, that was a very great trick!')
+
+# magicians = [['alice'],'brat','joanathan']
+# for magician in magicians[0]:
+#     print(f'{magician.title()}, that a very great trick!')
+#     print(f'I can not wait for your next performance, {magician.title()}')
+
+# names = ['alice','brat','david']
+# for magician in names:
+#     print(f'{magician.title()}, that was a great performance')
+# print(f"\nI can't wait for your next performance guys")
+
+# print("\nThank you all")
+
+# names = ['dounut','alice','david']
+# for magician in names:
+# #  print(magician)
+# names = ['alice','david','caroline']
+# for magician in names :
+#     print(f'Hello, {magician.title()}')
+# print(f'Thanks,{magician.title()}')
+
+
+message = 'Hello David'
+print(message)
