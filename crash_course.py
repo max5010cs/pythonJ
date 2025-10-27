@@ -1228,3 +1228,126 @@
 
 
 # LEFT AT EX 17
+
+
+# my_list = [1,2,3,4,5]
+# for i in range(len(my_list)-1,-1,-1):
+#     print(my_list[i])
+
+# x = 21-1,-1,-1
+# print(x)
+
+# my_list2 = [1,2,3,4,5]
+# for i in range(len(my_list2)-1,-1,-1):  # 4,-1,-1  >>> 4,3,2,1,0  
+#     print(my_list2[i])
+
+
+# # my guess is 5,4,3,2,1
+
+
+# nested_list = [[1,2],[3,4],[5,6]]
+# for i in range(len(nested_list)):    # 0,1,2
+#     for j in range(len(nested_list[i])): # 0,1  | 0,1  | 0,1
+#         print(nested_list[i][j])
+# my guess:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+
+# my_list = [i**2 for i in range(5)]
+# print(my_list)
+# # my_guess:
+# # 0
+# # 2
+# # 4
+# # 9
+# # 16
+
+
+# my_list = []
+
+# for i in range(5):
+#     my_list.append(i**2)
+# print(my_list)
+# my_list = [1,2,3,4,5]
+# for number in my_list:
+#     if number > 3:
+#         break
+# print(number)
+# # my guess is 3
+# # i was wrong coz the last number entered the function and the broke the fucntion will be considered
+
+
+# nested_list = [[1,2],[3,4],[5,6]]
+# for i in range(len(nested_list)): # 0,1,3
+#     for j in range(len(nested_list[i])):
+#         print(nested_list[i][j])
+
+# # # my_guess: 
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+
+
+
+# my_list1 = [1,2,3]
+# my_list2 = [4,5,6]
+
+# for number1 in my_list1:
+#     for number2 in my_list2:
+#         if number1 + number2 > 10:
+#             break
+# print(number1)
+# # my guess: 3
+
+
+# my_list = ["John","Jane","Peter","Mary"]
+
+# for name in my_list:
+#     if name == "Mary":
+#         break
+    
+# print(name)
+# # my_guess : Mary
+
+
+# my_list = [[1,2,3],[4,5,6],[7,8,9]]
+
+# for sublist in my_list:
+#     for item in sublist:
+#         if item == 5:
+#             break
+# print(item)
+#         # my guess is 4
+        
+
+# my_list = [[1,2,3],[4,5,6],[7,8,9]]
+
+# for sublist in my_list:
+#     for item in sublist:
+#         if item == 5:
+#             break
+#         print(item)
+
+
+# my_another_list = [[1,2,3],[4,5,6],[7,8,9]]
+
+# for item in my_another_list:
+#     for number in item:
+#         if number == 5:
+#             break
+#         print(number)
+# # my guess:
+# # 1
+# # 2
+# # 3
+# # 4
+# # 7
+# # 8
+# # 9
