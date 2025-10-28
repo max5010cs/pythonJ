@@ -1351,3 +1351,97 @@
 # # 7
 # # 8
 # # 9
+
+
+# magicians = ['alice','david','caroline']
+# for magician in magicians:
+#  print(magician)
+
+
+# magicians = ['alice','david','caroline']
+# for magician in magicians:
+#     print(f'{magician.title()}, that was a greak trick!\n')
+# print(f"I can't wait to see your next trick, {magician.title()}.")
+
+# magicians = ['alice','david','caroline']
+# for magician in magicians:
+#     print(f'{magician.capitalize()}, that was a great tick!')
+#     print(f"I can't wait to see your next trick, {magician.title()}\n")
+
+# message = "Hello world"
+# print(message)
+
+# magicians = ['alice','caroline','david']
+# for magician in magicians:
+#     print(f'{magician.title()}, that was a great trick!')
+#     print(f"i can't wait to see your next trick, {magician.capitalize()}")
+
+# print('\nThank you all for your performance!')
+
+
+# magicians = ['alice','david','caroline']
+# for magician in magicians:
+# #  print(magician)
+
+
+# for value in range(1,5):
+#     print(value)
+
+
+# for value in range(1,6):
+#     print(value)
+
+# for value in range(6):
+#     print(value)
+
+# numbers = list(range(7))
+# for values in numbers:
+#     print(values)
+
+# print(numbers)
+
+# number_ag = range(0,19,2)
+# number_tg = list(number_ag)
+
+# print("\n")
+
+# print(number_ag)
+# print(number_tg)
+
+# print('\n')
+
+# for numbers in number_ag:
+#     print(numbers)
+
+# print('\n')
+
+# for numbers in number_tg:
+#     print(numbers)
+
+# i need to list even numbers up to 10
+
+# even_numbers = list(range(0,11,2))
+# print(even_numbers)
+
+# for numbers in even_numbers:
+#     print(numbers)
+
+# for numbers in range(1,11,1):
+#     print(int(numbers)**2)
+
+# squares = []
+# for value in range(1,11,1):
+#     square = int(value)**2
+#     squares.append(square)
+#     print(squares)
+
+
+# squares = []
+
+# for value in range(1,11):
+#     square = value ** 2
+#     squares.append(square)
+
+# print(squares)
+
+# left at statistics with lists
