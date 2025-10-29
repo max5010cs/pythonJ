@@ -1445,3 +1445,85 @@
 # print(squares)
 
 # left at statistics with lists
+
+# digits = [1,2,3,4,5,6,7,8,9,0]
+# print(min(digits))
+# # for mins in digits:
+# #     print(min(mins))
+
+# digits =[1,2,3,5]
+# print(max(digits))
+
+# digits = [1,2,34,45]
+# print(max(digits))
+
+# squares = [value**2 for value in range(1,11)]
+# print(squares)
+
+
+# squares = []
+
+# for values in range(1,11):
+#     squared = values**2
+#     squares.append(squared)
+
+# print(squares)
+
+
+# squares = [ value**2 for value in range(1,11)]
+# print(squares)
+
+# squares = [value for value in range(1,11)]
+# print(squares)
+
+# squares  = [numbers/2 for numbers in range(11)]
+# print(squares)
+
+# players = ['charles','martina','michael','florence','eli']
+# print(players[0:3])
+
+# players = ['charles','michael','martina','bugatii','eli']
+
+# print(players[0:2])
+
+
+# cars = ['bugatti','mclaren','gm','minus','xiaomi']
+# print(cars[1:4])
+
+# players = [1,2,3,4,56,7,8]
+# print(players[:4])
+
+# players = ['martin','emi','ronaldo','messi']
+# print(players[1:])
+
+# players = ['martin','emi','messi','ronaldo']
+# print(players[-2:])
+
+# players = ['messi','ronaldo','mbappe','azizbek']
+
+# print('Here are the first three players in my team: \n')
+# for player in players[0:3]:
+#     print(player.title())
+
+# list_of_nums = [1,2,3,4,5,6,7,8,9]
+
+# print("Here are my three favourite numbers: ")
+# for nums in list_of_nums[0:3]:
+#     print(nums)
+
+# my_foods = ['pizza','falafel','carrot cake']
+# friend_foods = my_foods[:]
+
+# print(f'Here is the list of my favourite foods:\n{my_foods}\n')
+# print(f"Here is the list of my friend's favourite foods:\n{friend_foods}")
+
+# my_food = ['pizza','falafel','chocolate']
+# friend_food = my_food[:]
+
+# another = input("What is your favourite food my friend: ")
+# friend_food.append(another)
+
+# print(f'\nmy food: {my_food}')
+# print(f'friend_food: {friend_food}')
+
+# print('\nYep they are different lists as u can see!')

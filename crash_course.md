@@ -44,3 +44,6 @@ not in
 and 
 or
 range
+min()
+max()
+sum()
