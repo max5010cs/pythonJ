@@ -1527,3 +1527,57 @@
 # print(f'friend_food: {friend_food}')
 
 # print('\nYep they are different lists as u can see!')
+
+# list1 = [1,2,34]
+# list2 = list1[:]
+
+# list1.append(56)
+# list2.append(78)
+
+# print(list1,"\n",list2)
+
+# dimensions = (200,50)
+# print(dimensions[0])
+# print(dimensions[1])
+
+# dimensions = (200,500)
+# dimensions[0] = 300
+# print(dimensions)  # error is produced coz i can not alter a tuple
+
+# my_t = (3)
+# define = my_t[0]
+# print(define)   # this produces error coz 3 by itself cant but a tuple uless we use comma
+
+# my_t = (3,)
+# define = my_t[0]
+# # print(define)
+
+# dimensions = (500,200)
+# for dimension in dimensions:
+#     print(dimension)
+
+# a = 'this is first value'
+# print(a)
+# a = 'this is second'
+# print(a)
+
+# dimensions = (500,200)
+# print("Original dimensions: \n")
+# for dimension in dimensions:
+#     print(dimension)
+
+# dimensions = (1,2)
+# print("\nNew dimensions: \n")
+# for dimension in dimensions:
+#     print(dimension)
+
+
+# dimensions = (1,2)
+# print(f'Org dimensions: \n{dimensions}')
+
+# dimensions = (3,4)
+# print(f'\nnew dimensions:\n{dimensions} ')
+
+# +++++++++++++ code styling PEP 8
+
+# left at if stats
