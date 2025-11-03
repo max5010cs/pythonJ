@@ -1581,3 +1581,77 @@
 # +++++++++++++ code styling PEP 8
 
 # left at if stats
+
+
+# cars = ["audi",'toyota','malibu','bmw','bugatti','mercedes']
+
+# for car in cars:
+#     if car == 'bugatti':
+#         print(car.upper())
+
+#     else:
+#         print(car.title())
+
+# car = 'bmw'
+# car == 'bmw'
+# print(car)
+
+# car == "audi"
+
+# car = "audi"
+# # print(car == "audi")
+
+# car = 1
+# print(car==2)
+
+# car = "Audi"
+# print(car.lower()=='audi')
+
+# requested_topping = "mushrooms" 
+
+# if requested_topping != "anchovies":
+#     print("Hold the anchovies")
+
+
+# age = 18
+# if age != 18:
+#     print("He is not 18")
+
+# else:
+#     print("he is 18")
+
+# answer = 17
+
+# if answer !=22:
+#     print("that answer is not the correct one and correct answer is 22")
+
+# answer = 4
+
+# if answer >= 4:
+#     print("thats is the correct answer")
+
+# else:
+#     print("wrong answer")
+
+
+# answer = 1
+
+# if answer > 19:
+#     print("that is not correct answer")
+
+# else:
+#     print("answer should equal to or greater than 19")
+
+
+age = input("Please enter your age: ")
+print(age)
+
+age2 = input("please enter your frined's age: ")
+print(age2)
+
+if int(age) > 21 and int(age2) > 21:
+    print("You aare good to proceed!")
+
+else:
+    print("You must be over 21 sir")
+    
