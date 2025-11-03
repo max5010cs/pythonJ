@@ -1643,15 +1643,15 @@
 #     print("answer should equal to or greater than 19")
 
 
-age = input("Please enter your age: ")
-print(age)
+# age = input("Please enter your age: ")
+# print(age)
 
-age2 = input("please enter your frined's age: ")
-print(age2)
+# age2 = input("please enter your frined's age: ")
+# print(age2)
 
-if int(age) > 21 and int(age2) > 21:
-    print("You aare good to proceed!")
+# if int(age) > 21 and int(age2) > 21:
+#     print("You aare good to proceed!")
 
-else:
-    print("You must be over 21 sir")
+# else:
+#     print("You must be over 21 sir")
     
