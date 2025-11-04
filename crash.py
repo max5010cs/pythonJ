@@ -1654,4 +1654,30 @@
 
 # else:
 #     print("You must be over 21 sir")
-    
+# age1 = input("how old are you? ")
+#age2 = input("how old are you? ")
+
+#if int(age1) > 21 and int(age2) > 21:
+ #   print("You are welcome, you can come in!")
+
+#else:
+#          print("You gotta be over 21, sorry!")
+
+#age_0 = 22
+#age_1 = 18
+#if age_0 > 21 or age_2 > 21:
+#    print("True")
+
+#else:
+#    print("False")
+
+banned_users = ['andrew', 'caroline', 'david']
+user = 'marie'
+
+if user not in banned_users:
+    print(f"{user.capitalize()}, you can post a response if you wish!")
+
+else:
+    print(f'You are banned')
+
+
