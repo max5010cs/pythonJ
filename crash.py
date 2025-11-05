@@ -1671,13 +1671,79 @@
 #else:
 #    print("False")
 
-banned_users = ['andrew', 'caroline', 'david']
-user = 'marie'
+#banned_users = ['andrew', 'caroline', 'david']
+#user = 'marie'
 
-if user not in banned_users:
-    print(f"{user.capitalize()}, you can post a response if you wish!")
+#if user not in banned_users:
+#    print(f"{user.capitalize()}, you can post a response if you wish!")
+
+#else:
+#    print(f'You are banned')
+
+'''
+
+age = input("how old are you?")
+if int(age) >= 18:
+    print("You are old enough to vote")
 
 else:
-    print(f'You are banned')
+    print("You need to be 18 or over")
 
+
+age = input("How old are you? :")
+
+if int(age) >= 18:
+    print("You are old enough to vote!")
+    yn = input("Have you registered yet? y/n :")
+
+    if yn == "y" or yn == "n":
+        if yn == "y":
+            print("All right then, good luck")
+        else:
+            print("You would want to register on the next table")
+
+    else:
+        print("Only y/n")
+
+else:
+    print("You gotta be at least 18")
+
+
+
+
+age = input("How old are you? : ")
+
+if int(age) < 4:
+    print("Your admission cost is free")
+elif int(age) < 18:
+    print("Your admssions cost is 25")
+else:
+print("Yours is 40")
+
+age = 19
+
+if age < 4:
+    price = "free"
+
+elif age < 18:
+    price = 25
+
+else:
+    price = 40
+
+print(f'Your admissoin fee is {price}')
+
+'''
+
+
+age = 98
+if age < 4:
+    price = "free"
+elif age < 18:
+    price = 25
+elif age < 65:
+    price = 40
+else:
+    price = 20
+print(f"Your admission fee is {price}")
 
