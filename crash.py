@@ -1733,7 +1733,7 @@ else:
 
 print(f'Your admissoin fee is {price}')
 
-'''
+
 
 
 age = 98
@@ -1747,3 +1747,79 @@ else:
     price = 20
 print(f"Your admission fee is {price}")
 
+game_active = True
+can_edit = False
+print(game_active,can_edit)
+
+car = "subaru"
+print("is car == 'subaru'? I predict True")
+print(car == 'subaru')
+
+
+car = "bugatti"
+print(car == 'bugatti')
+
+model = 'Tuatara'
+print(model.lower() == 'Tuatara' )
+
+'''
+'''
+requested_toppings = ['mushrooms','extra cheese']
+
+if 'mushrooms' in requested_toppings:
+    print('Adding mushrooms')
+if 'papperoni' in requested_toppings:
+    print('Adding papperoni')
+if 'extra cheese' in requested_toppings:
+    print('Adding extracheese')
+'''
+
+'''
+
+requested = ['mushrooms', 'extra cheese']
+for item in requested:
+    if item in requested:
+        print(f"Adding {item}")
+print('Your pizza is ready')   # this seemed lil bit off but still made things easier than it was in previous piece
+'''
+
+'''
+alien_color = "green"
+
+if alien_color == 'green':
+    print('You just earned 5 points')
+
+alien_color = 'red'
+
+if alien_color == 'green':
+    print('You just earned 5 points')
+else:
+    print('You lost the game, gfo.')
+
+   '''
+
+
+alien1 = 'red'
+alien2 = 'green'
+alien3 = 'yellow'
+
+if alien1 == 'red':
+    print('You just earned 15 points')
+elif alien1 == 'green':
+    print('You just earned 5 points')
+else:
+    print('You just earned 10 points')
+
+if alien2 == 'red':
+    print('You just earned 15 points')
+elif alien2 == 'green':
+    print('You just earned 5 points')
+else:
+    print('You just earned 10 points')
+
+if alien3 == 'red':
+    print('You just earned 15 points')
+elif alien3 == 'green':
+    print('You just earned 5 points')
+else:
+    print('You just earned 10 points')
