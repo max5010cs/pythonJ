@@ -1871,7 +1871,238 @@ for i in req_toppings:
     if i in req_toppings:
         print(f'Adding {i}...')
 print("Your pizza is ready")
+
+
+requested_toppings = ['mushroom', ' green peppers', 'extra cheese']
+for requested_topping in requested_toppings:
+    print(f'Adding {requested_topping}')
+print('\n Your pizza is ready')
+
+
+
+
+requested_toppings= ['mushroom','green peppers', 'extra cheese']
+for i in requested_toppings:
+    if i == 'mushroom':
+        print(f"Sorry, there is no {i} left")
+    else:
+        print(f'\nAdding {i}...')
+print('\n Your pizza is ready')
+
+
+#1. so firstly i need to ask the client for what they want
+#2. then i need to add them to the list
+#3. if the reseponse is null
+#4. I will finish requesting for items
+#5. then i will check the list if it empy i will ask if they want a plain pizza
+#6. if not i will add each thing one by one
+#7. finish
+
+requested_toppings = []
+topping = input('Welcome sir, what do you want in your pizza? ')
+if topping:
+    requested_toppings.append(topping)
+    print(topping)
+elif requested_toppings and not topping:
+    print('Accepted your requested topping...')
+elif not requested_toppings:
+    confirm = input('Do u really want a plain pizza? y/n')
+    if confirm == 'y':
+        print('Got you')
+    else:
+        print(topping)
+# i tried tho
+
+toppings = []
+while True:
+    topping = input ("What is the frkn topping you want? ")
+    if topping:
+        toppings.append(topping)
+    else:
+        break
+if toppings:
+    print("Got you")
+    for i in toppings:
+        print(f"Adding {i} to your pizza...")
+    print("Here is your pizza with requested toppings!")
+else:
+    print("Plain it is!")
+    print('Here is your requested plain pizzza!')
+
+ # got it , it is working now
+ 
+            
+    
+
+
+requested_toppings = []
+
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print(f'Addding {requsted_topping} to your pizza')
+    print('You pizza is ready')
+else:
+    plain = input("So plain one then? ")
+    if plain:
+        print("BRUH")
+    else:
+        print('alright')
+
+        #  weird but book is always right
+
+available_toppings = ['mushrooms','olives','green peppers','pepperoni','pineapple','extra cheese']
+requested_toppings = ['mushrooms','french fries','extra cheese']
+
+for topping in requested_toppings:
+    if topping in available_toppings:
+        print(f'Adding {topping}...')
+    else:
+        print(f'{topping} is not available currently')
+print('\n Your pizza is ready')
+
+
+
+
+# PEP 8 
+# spacing in if statements
+if age < 4 # Try to use single space
+if age<4  # nope
+
+
+# DICTIONARY    example_dictionary = {'color' : 'Green'}
+
+alien_0 = {'name' : 'max', 'car'  : 'bmw', 'color' : 'black', 'engine' : 'v6'}
+
+print(alien_0['name'])
+print(alien_0['car'])
+print(alien_0['engine'])
+print(alien_0['name'], '\n', alien_0['car'], '\n', alien_0['engine'])
+
+
+alien_0 = {'alien_color' : 'green', 'points' : 5}
+new_points = alien_0 ['points']
+print(f'You just earned {new_points} points')
+
+
+
+alien_0 = {'color' : 'green', 'points' : 5}
+print(alien_0)
+
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
+
+
+
+dict_0 = {'car' : 'bw'}
+print(dict_0)
+
+dict_0['engine'] = 'v8'
+print(dict_0)
+
+
+
+
+alien_0 = {}
+print(alien_0)
+
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+print(alien_0)
+
+alien_0 = {'color' : 'green'}
+print(f"{alien_0['color'].title()} is the current color of the alien")
+
+alien_0['color'] = 'yellow'
+print(f"{alien_0['color'].title()} is the new color")
+
+
+
+# lets try to move the alien from its x position
+alien_1 = {'x_position' : 25, 'y_position' : 0, 'speed' : 'medium'}
+print(f"Current position is {alien_1['x_position']}")
+
+if alien_1['speed'] == 'slow':
+    x_move = 1
+elif alien_1['speed'] == 'medium':
+    x_move = 2
+else:
+    x_move = 3
+
+# now i need to apply the new position by adding the x_move to old position(x_position)
+alien_1['x_position'] = alien_1['x_position'] + x_move
+print(f"New position for the alien is {alien_1['x_position']} after change of {x_move} by x vector")
+
+
+
+alien_1 = {'color' : 'green', 'points' : 5}
+print(alien_1)
+
+del alien_1['points']
+print(alien_1)
+
+favourite_lang = {
+        'jen' : 'python',
+        'sarah' : 'c',
+        'max': 'rust',
+        'phil' : 'ruby'
+
+        }
+print(favourite_lang)
 '''
+
+name = input('What is your name? ')
+fav_lang = input (f'What is your favourite language {name}? ')
+
+dictionary = {}
+dictionary[name] = fav_lang
+print(f"{name.title()}'s favourite langauge is {dictionary[name].title()}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

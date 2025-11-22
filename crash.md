@@ -48,4 +48,6 @@ min()
 max()
 sum()
 dictionaries = {}
+dictionary['new_variable'] = value  # the same when changing
+del dictionary['varible']
 
