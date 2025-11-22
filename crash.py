@@ -2049,55 +2049,123 @@ favourite_lang = {
 
         }
 print(favourite_lang)
-'''
+
 
 name = input('What is your name? ')
 fav_lang = input (f'What is your favourite language {name}? ')
 
 dictionary = {}
-dictionary[name] = fav_lang
+dic0tionary[name] = fav_lang
 print(f"{name.title()}'s favourite langauge is {dictionary[name].title()}")
 
 
 
 
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+
+del alien_0['color']
+print(alien_0)
+
+
+favourite_languages = {
+        'jen':'python',
+        'johanna':'ruby',
+        'edward':'ruby',
+        'phil':'rust'
+        }
+
+name = input('Whose fav language do you wanna know? ')
+
+if name in favourite_languages:
+    fav_language = favourite_languages[name].title()
+    print(f"{name.title()}'s favourite language is {fav_language}")
+else:
+    print("Name is required")
+
+
+
+
+alien_0 = {
+        'color':'green',
+        'speed':'slow'
+        }
+print(alien_0['points'])
+
+
+
+alien_0 = {
+        'color':'green',
+        'speed':'slow'
+        }
+print_value = alien_0.get('points','wtf this does not exist bro')
+print(print_value)
 
 
 
 
 
 
+friend_name = {
+        'name':'max',
+        'age':'19',
+        'fav_language':'rust',
+        'hobby':'chess',
+        }
+
+print(friend_name['name'])
+print(friend_name['age'])
+print(friend_name['hobby'])
+print(friend_name['fav_language'])
 
 
 
+#jane = input('What is your favourite language Jane? ')
+#jack = input('What is your favourite language Jack? ')
+#johanna = input('What is your favoutite language Johanna? ')
+#saidakbar = input('What is your favourite language Saidakabar? )
+
+
+list = ['jane','jack','johanna','saidakbar','johnson','fiona']
+dictionary = {
+        }
+for name in list :
+    fav_lang = input(f'What is your favourite language {name.title()} ? ')
+    if fav_lang:
+        dictionary[name] = fav_lang
+    else:
+        print('Lang is required.')
+quest = input('Now whose favourite language do you wanna know? ')
+if quest in dictionary:
+    print(f"{quest.title()}'s favourite language is {dictionary[quest]}")
+else:
+    print("Aight")
 
 
 
+dictionary = {
+        'get()':'We use get when we are not sure smth is in the dictionary',
+        'dictionary[]':' We use this to print the valueof the key we need',
+        'dictionary[]=""': ' we use this when we wanna add new value or change value of the key'
+
+        }
+for names in dictionary:
+    print(names, ' >>> ', dictionary[names])
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+user_0 = {
+        'username' : 'Fiona',
+        'first' : 'flowey',
+        'last' : 'fermi'
+        }
+#for a,b in user_0.items():
+ #   print(f'\nKey: {a}')
+  #  print(f'Value: {b}')
+for k,v in user_0.items():
+    print(f"{k}  >>  {v}")    
+'''
+#at 101
 
 
 

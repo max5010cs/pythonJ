@@ -93,3 +93,7 @@ and it works permamanently and we want the list back we can just reverse it seco
 
 
 #  using append we cant add lists togther but we can insert one into another, if i wanna add then i can just use +
+
+
+
+# line 56 we got items(), it is used with dictionaries (at least now) and it help extract pairs key:value from the dictionary
