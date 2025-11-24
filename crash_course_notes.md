@@ -96,4 +96,29 @@ and it works permamanently and we want the list back we can just reverse it seco
 
 
 
-# line 56 we got items(), it is used with dictionaries (at least now) and it help extract pairs key:value from the dictionary
+# line 53 we got .items(), it is used with dictionaries (at least now) and it help extract pairs key:value from the dictionary
+# line 55 we got sort() is used to sort in order
+# line 57 we got set(), this is used to sort only uniques ones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

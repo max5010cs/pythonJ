@@ -2164,8 +2164,112 @@ user_0 = {
   #  print(f'Value: {b}')
 for k,v in user_0.items():
     print(f"{k}  >>  {v}")    
+
+
+favourite_languages = {
+        'said':'python',
+        'jacob':'rust',
+        'jenny':'ruby'
+        }
+
+for name, language in favourite_languages.items():
+    print(f"\n{name.title()}'s favourite language is {language.title()}")
+
+
+fav_languages = {
+        'jane':'python',
+        'john':'rsut',
+        'smith':'ruby',
+        'ops':'javascript'
+        }
+
+message = ('People who took the poll::')
+print(message)
+for name in fav_languages.keys():
+    print(name.title())
+
+
+
+fav_languages = {
+        'jane':'python',
+        'jack':'rust',
+        'smith':'java'
+        }
+for names in fav_languages.keys():
+    name = names
+    lang = fav_languages[name]
+    print(f"{name.title()}'s favourite language is {lang.title()}")
+
+
+the_poll = {
+        'pal':''
+        }
+#print(the_poll[pal])
+
+if 'pal' not in the_poll.keys():
+    print('Pal, you better take the poll')
+if not the_poll['pal']:
+    print('Pal, you better take it bruh')
+
+
+
+favourite_languages = {
+        'jane':'python',
+        'jake':'rust',
+        'saida':'vue',
+        'john':'java'}
+for name in sorted(favourite_languages):
+    print(f"{name.title()}, Thank you for taking the poll")
+
+
+favourite_languages = {
+        'jane':'rust',
+        'johanna':'ruby',
+        'oper':'java',
+        'rustam':'python'
+        }
+
+print('Here are the values:')
+for values in favourite_languages.values():
+    print(values)
+
 '''
-#at 101
+
+# when trying to print values, there could be some repeated ones, to print only unique ones we can use set()
+
+langs = {
+        'jane':'rust',
+        'islam':'python',
+        'rustam':'python',
+        'said':'ruby',
+        'akbar':'ruby'
+        }
+print("let's print unique ones using set()")
+for values in set(langs.values()):
+    print(values)
+
+    # left at nesting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
