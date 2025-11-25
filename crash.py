@@ -2233,7 +2233,7 @@ print('Here are the values:')
 for values in favourite_languages.values():
     print(values)
 
-'''
+
 
 # when trying to print values, there could be some repeated ones, to print only unique ones we can use set()
 
@@ -2248,26 +2248,111 @@ print("let's print unique ones using set()")
 for values in set(langs.values()):
     print(values)
 
-    # left at nesting
+alien_0 = {'color':'green', 'points':5}
+alien_1 = {'color':'yellow','points':3}
+alien_2 = {'color':'red', 'points':1}
+
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+    print(alien)
 
 
 
+# Make an empty list 
+aliens = []
+
+# append multiple aliens using range()
+for alien_number in range(30):
+    new_alien = {'color':'green', 'points':5, 'speed':'slow'}
+    aliens.append(new_alien)
 
 
 
+# print 5 of em
+for alien in aliens[:5]:
+    print(alien)
+print('...')
+
+print(f'Aliens in the list are {len(aliens)} ')
 
 
 
+# create an empty list
+aliens = []
+
+# use range to create multiple aliens
+for aliens_number in range(10):
+    new_alien = {'color':'green', 'points':5, 'speed':'slow'}
+    aliens.append(new_alien)
+
+# use for loop and if to change the values of first 3 aliens
+for alien in aliens[:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['points'] = 10
+        alien['speed'] = 'medium'
+    else:
+        print('error')
+
+ # print first 5 of the aliens
+for alien_ in aliens[:5]:
+    print(alien_)
 
 
+# create an empty list 
+aliens = []
+
+# add 10 aliens usinng range and loop
+for number in range(10):
+    new_alien = {'color':'green', 'speed':'slow', 'points':5}
+    aliens.append(new_alien)
+
+    # loop thought each alien upto third one and then change their value using if/elif
+for update in aliens[:3]:
+    if update['color'] == 'green':
+        update['color'] = 'yellow'
+        update['speed'] = 'medium'
+        update['points'] = 10
+    elif update['color'] == 'yellow':
+        update['color'] = 'red'
+        update['speed'] = 'fast'
+        update['points'] = 15
+for alien in aliens[:5]:
+    print(alien)
 
 
+# store pizza info here in a dictionary
+pizza = {
+        'crust':'thick',
+        'toppings': ['mushrooms', 'extra-cheese']
+        }
+# summarize the order
+print(f"Did you order a {pizza['crust']} - crust pizza, with toppings:")
+for topping in pizza['toppings']:
+    print(topping)
+
+# ask for confirmation
+conf = input("Confirm!...y/n ")
+if conf == 'y':
+    print('Alright it is ready you can take it')
+else:
+    print('error')
 
 
+fav_languages = {
+        'john':['python', 'ruby'],
+        'sara':['java'],
+        'said':['javscript', 'typescript'],
+        'akbar':['C', 'C#', 'C++']
+        }
+for name, languages in fav_languages.items():
+    print(f"\n{name.title()}'s favourite languages are:")
+    for language in languages:
+        print("\t" + language)
 
+'''
 
-
-
+# lest at 110 and need to read 15 pages from next day on
 
 
 
