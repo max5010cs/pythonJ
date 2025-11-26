@@ -2350,9 +2350,149 @@ for name, languages in fav_languages.items():
     for language in languages:
         print("\t" + language)
 
+
+
+
+# DICTIONARY IN A DICTIONARY
+
+users = {
+        'aenstein': {
+            'first':'alebert',
+            'last':'aenstein',
+            'location':'princeton'
+            },
+        'mcurie': {
+            'first':'marie',
+            'last': 'curie',
+            'location':'paris'
+            }
+        }
+
+
+
+for username, user_info in users.items():
+    username = username 
+    first = user_info['first']
+    last = user_info['last']
+    location = user_info['location']
+
+    print(f"\nUsername: {username}\n\t Full Name: {first} {last}\n\t Location: {location}")
+
+
+
+
+
+message = input('What is your name ? ' )
+print(f'Welcome, {message.title()}.')
+
+
+
+prompt = 'If you tell us who you are, we can personalize the messages for you!'
+prompt += '\nWhat is your name? '
+
+name = input(prompt)
+print(f'Thanks, {name}')
+
+intro = 'Please enter your name so we can adjust messages for you'
+print(intro)
+name_asking_prompt = input ('What is your name? ')
+print(f'Thanks, {name_asking_prompt}')
+
+
+age = input('How old are you? ')
+print(age)
+# when trying print the quotes will NOT be a problem
+#but when trying to use it in some other op then quotes can be a problem for example:
+#    if age > 18:     # this will return an error coz the number enetered by the user is saved as a string with quotes ''
+
+
+age = input ('How old are you? ' )
+if age > 18 :
+    print('You are an adult')   # WRONG
+
+age = int(input ('How old are you? '))
+if int(age) > 18 :  # this is second option
+    print('You are an adult')   # Correct
+
+
+name = input('What is your name? ')
+height = input ('How tall are you, in inches? ')
+
+if int(height) > 48:
+    print(f"You are tall enought to ride, {name.title()} ")
+else:
+    print('You can ride when you little bit older!')
+
+
+################# (%) --- Modulo Operator
+
+number = int(input("Enter a number and i will find you if it is ODD or EVEN_  "))
+if number % 2:
+    print('It is Odd')
+else:
+    print('It is Even')
+
+conf = input('Am i right?_y/n ')
+if conf == 'y':
+    print('I knew it')
+else:
+    print('My bad')
+
+
+# While loops
+
+current_number = 1
+for a in range(100):
+    current_number+=1
+    print(current_number)
+
+
+current_number = 1
+while current_number < 100:
+    current_number+= 1
+    print(current_number)
+
+
+
+
+current_number = 1
+while current_number <=5:
+    print(current_number)
+    current_number+= 1
+  #  print(current_number)
+
+
+prompt = 'Enter whatever you want and i will repeat it for you. '
+prompt+= "Enter 'q' to stop me "
+
+message = ""
+while message != 'q':
+    message = input(prompt)
+    print(message)
+
+print("Eneter whatever you want and i will repeat it for you\nEnter 'q' to stop me" )
+enter = input('$~')
+
+m = ""
+while m != 'q':
+    m = enter
+    print(m)
+
 '''
 
-# lest at 110 and need to read 15 pages from next day on
+
+# left at 119, i need to reanalyze one problem
+
+
+
+
+
+
+
+
+
+
+
 
 
 
