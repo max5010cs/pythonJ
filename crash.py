@@ -2478,30 +2478,268 @@ while m != 'q':
     m = enter
     print(m)
 
+
+
+
+while True:
+
+    msg = input ("Say whatever or q to quit: ")
+    if msg != 'q':
+         print(msg)
+    else:
+        break
+
+    
+
+#  Using a Flag
+
+active = True
+while active:
+
+    msg = input("Hey say antyhing i will repeat or say q to quit: ")
+    if msg != 'q':
+        print(msg)
+    else:
+        active = 0
+
+
+sentence = "Hello, how are you"
+words = sentence.split()
+print(words)
+
+
+
+string = "apple,banana,orange"
+fruits = string.split(",")
+print(fruits)
+
+
+
+string = "one,two,three,four,five"
+parts = string.split(",", 2)
+print(parts)
+
+multiple_string = "Line 1\n Line2\n Line3"
+lines = multiple_string.split("\n")
+print(lines)
+
+
+
+cars = "bugatti, bmw, audi, tesla"
+msg = cars.split(",", -2)
+print(msg)  # it does not do anything just split(",") happens
+
+
+string = "Hello"
+characters = list(string)
+print(characters)  # i need to remember this coz i thought it would put the Hello into list
+
+
+
+sentence = "           Hello, How are you                  "
+msg = sentence.strip().split()
+print(msg)
+
+
+sentence = "Hello How Are You"
+msg = sentence.lower().split()
+print(msg)
+
+string = "Hello how are you"
+msg = string.split(" ", maxsplit = 0) # maxsplit = 0 == 
+print(msg)
+
+
+words = ["Hello", "World"]
+sentence = "".join(words)
+print(sentence)
+
+words = ["Hello", "World"]
+sentence = " ".join(words)
+print(sentence)
+
+numbers = [1,2,4]
+string = ", ".join(str(number) for number in numbers)
+print(string)
+
+
+words = ['apple', 'banana', 'orange']
+string = ", ".join(words)
+print(string)
+
+words2 = words
+string2 = "-".join(words2)
+print(string2)
+
+
+words = ['Hello', 'World']
+string1 = "".join(words)
+string2 = " ".join(words)
+string3 = ", ".join(words)
+string4 = "\n".join(words)
+
+print(string1)
+print(string2)
+print(string3)
+print(string4)
+
+
+numbers = [1,2,4,4,5,6]
+print(numbers)
+sublist = numbers[1:4]
+print(sublist)
+
+numbers = [1,2,34,56]
+sublist = numbers[:3]
+print(sublist)
+
+
+numbers = [1,2,3,4,5,6,7,8,9]
+print(numbers[::3])
+
+
+string = "Hello, world"
+sub = string[7:]
+print(sub)
+
+string = "Hello, world"
+section = string[4:9]
+print(section)
+
+
+sentence = "Hello World"
+section = sentence[::-1]
+print(section)
+
+
+word = "Python"
+sub = word[-4:]
+print(sub)
+
+
+numbers = [1,2,3,4,5]
+mid = numbers[1:-1]
+print(mid)
+
+sentence = "Hello world"
+sections = sentence[:2] + sentence[2:5]
+print(sections)
+
+numbers = [1,2,3,4,5,6]
+sections = numbers[:3] + numbers[-2:]
+print(sections)
+
+word = "Python"
+s = slice(0,3)
+print(word[s])
+
+s2 = slice(-1)
+print(word[s2])
+
+word = "Python"
+s = slice(-2)
+print(s)   # so basically the slie is some variable that can be reused and takes at least 1 value and upto 3 
+
+
+word = "Python"
+s = slice(-3,-6,-1)
+print(word[s])
+
+word = "Python"
+s = slice(0,None,2)  # start at index 0 and to the end by jumping by 2, so skip one character each time
+print(word[s])
+
+
+word = "Python"
+s= slice(None,None, -1)  # reversing 
+print(word[s])
+
+# tasks
+# 1. Split a sentence into words
+sentence = "Wassup how are you doing these days"
+splits = sentence.split(" ")
+print(splits)
+
+# 2. Split a string line into individual values
+string = "apple,banana,orange"
+splits = string.split(",")
+print(splits)
+for fruit in splits:
+    print(f"\n{fruit}")
+
+
+
+# 3. Join list of words into a sentence
+list1 = ['I', 'do', 'not', 'give', 'a', 'f/']
+sentence = " ".join(list1)
+print(sentence)
+
+# 4. Join a list of numbers as a hypen separated string
+numbers = [1,2,3,4,5]
+joining = "-".join(str(number) for number in numbers)
+print(joining)
+
+
+# 5. Slice the first 3 characters of a string
+string = "Pyton"
+s = slice(0,3)
+first_three = string[s]
+print(first_three)
+
+print(string[slice(0,3)])
+
+
+# 6. Reverse a string using slicing
+string = "Hello world"
+reversing = string[slice(-1,None, -1)]
+print(reversing)
+
+
+
+# 7. Extract every second characrter
+string = "acacacacacaca"
+print(string[slice(0,None,2)])
+print(string[::2])
+print(string.split("c"))
+
+
+
+# 8. Split a sentence and then reverse each word 
+sentence = "Welcome Home Panda"
+
+a = sentence.split(" ") # split each word and put it into a list
+b = sentence[slice(None,None, -1)] # take the word and reverse its order in character level
+c = b.split(" ")  # take the reversed string and put it into a list by splitting by space
+d = " ".join(c) # take the list of reversed characters and put them into one string and use spaces when joining
+
+print(a)
+print(b)
+print(c)
+print(d)
+
+
+
+# 9. Check if a string is a palindrome
+while True:
+
+    ask = input("Tell me anything and i will tell you if it is a Plaindrome or not: ")
+
+    a = ask
+    b = ask[slice(None,None, -1)]
+    if a == b:
+        print("Palindrome")
+    else:
+        print("Not a Palindrome")
+# b3aut1ful
+
+
+# 10. Convert a setence into a title case using split and join
+sentence = "This is not a playground"
+#print(sentence.title())
+splitting = sentence.split(" ")
+joining = " ".join(word.title() for word in splitting)
+print(joining)
+
 '''
-
-
-# left at 119, i need to reanalyze one problem
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

@@ -55,8 +55,9 @@ del dictionary['varible']
 sort()
 .values()
 set()
-
-
+split()
+" ".join(variable)
+slice(1,2,3)
 
 
 

@@ -100,7 +100,18 @@ and it works permamanently and we want the list back we can just reverse it seco
 # line 55 we got sort() is used to sort in order
 # line 57 we got set(), this is used to sort only uniques ones
 
+# line 58 we got split()
+split is smth that takes a value and a number when needed
+when we use split("smth") then it will split according smth
+when we use split("smth", 2) then it will do the same action but only twice
 
+# line 59 we got " ".join()
+so join is used to join shit for example inside the "" i can use values and join joins the values inside the value into one but adding whatever inside "" between each value, inside () it usually requires the variable name for example my_list
+
+# line 60 we got slice()
+slice is little bit weird coz it has nothing to do with the vairable so it does not know what it is even slicing, thats why it is used as a varable for example: s = slice(None,None) this tells python to slice whatver from the beginning to the end, just means cut the whole thing.
+But as i said it doesnt know what it is sicing so we need to use it wherever and whatever we need to slice for eample i wanna slice:  s = (None,-1)  slicing = my_string[s]
+Slice can slice string, lists, ..  and it takes index, None = 0
 
 
 
