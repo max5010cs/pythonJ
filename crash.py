@@ -2823,7 +2823,7 @@ while 'cat' in pets:
     pets.remove('cat')
 print(pets)
 
-'''
+
 
 # i need to write a program that asks for the name and mountain and then  save them to dcitionary and then print 
 
@@ -2853,17 +2853,30 @@ for name, mountain in responses.items():
     print(f"{name.title()} would like to climb {mountain.title()}.")
 
 
+def greet_user():
+    print("Hello")
+greet_user()
 
 
 
+def greet_user(username):
+    print(f"Hello {username.title()}")
+name = input('What is your name? ')
+greet_user(name)
+
+'''
 
 
 
+def message():
+    print("Hello, im learning functons today")
+message()
 
+def fav_book(name):
+    print(f"Your favourite book is saved as {name.title()}")
 
-
-
-
+x = input("What is your favourite book? ")
+fav_book(x)
 
 
 
