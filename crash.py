@@ -2740,6 +2740,130 @@ splitting = sentence.split(" ")
 joining = " ".join(word.title() for word in splitting)
 print(joining)
 
+
+
+print("Tell me smth and i will repeat it for you.\nEnter q to quit")
+message = ""
+active = 1
+while active:
+    message = input("Enter here: ")
+
+    if message == 'q':
+        active = 0
+    else:
+        print(message)
+
+
+
+print("Enter the city u have visited to.\nEnter q to quit")
+message = ""
+while True:
+    message = input("Enter here: ")
+    if message != 'q':
+        print(f"I would love to visit {message.title()}")
+    else:
+        break
+
+current_number = 0
+
+while current_number < 10:
+    current_number+=1
+    if current_number % 2 == 0:
+        continue
+    else:
+        print(current_number)
+
+
+
+toppings = []
+
+print("Please enter the topping you want in your pizza.\nEnter q when you are done")
+message = ""
+while True:
+    message = input("Enter here: ")
+    if message == 'q':
+        break
+    else:
+        toppings.append(message)
+        print(f"{message.title()} will be added")
+print("Toppings you have listed: ")
+for topping in toppings:
+    print(topping.title())
+
+
+
+number = 0
+while True:
+    number+=1
+    print(number)
+
+
+
+
+
+unconfirmed_users = ['alice', 'bob', 'said', 'akbar']
+confirmed_users = []
+
+while unconfirmed_users:
+   # user = unconfirmed_users[0]
+  #  unconfirmed_users.remove(user)
+
+    user = unconfirmed_users.pop()
+
+    confirmed_users.append(user)
+    print(f"Verified user: {user}")
+
+print(confirmed_users)
+
+
+pets = ['tiger', 'horse', 'cat', 'cow', 'dog', 'cat']
+print(pets)
+
+while 'cat' in pets:
+    pets.remove('cat')
+print(pets)
+
 '''
+
+# i need to write a program that asks for the name and mountain and then  save them to dcitionary and then print 
+
+# empty dict
+responses = {
+
+        }
+poll_active = 1
+
+while poll_active:
+    name = input("What is your name? ")
+    mountain = input("What is the name of mountain you would like to climb? ")
+    
+    #save results
+    responses[name] = mountain
+
+    # lets aks if there is someone else to answer
+    ask = input("Is there someone else to answer? y/n ")
+    if ask == "y":
+        continue
+    else:
+        poll_active = 0
+#print(responses)
+print("\n ------------- Poll Results --------------\n")
+   
+for name, mountain in responses.items():
+    print(f"{name.title()} would like to climb {mountain.title()}.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

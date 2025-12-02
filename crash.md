@@ -58,7 +58,9 @@ set()
 split()
 " ".join(variable)
 slice(1,2,3)
-
+while
+break
+continue
 
 
 
