@@ -2864,7 +2864,7 @@ def greet_user(username):
 name = input('What is your name? ')
 greet_user(name)
 
-'''
+
 
 
 
@@ -2877,6 +2877,92 @@ def fav_book(name):
 
 x = input("What is your favourite book? ")
 fav_book(x)
+
+
+def describe_pet(animal, name):
+    # return he result as
+    print(f"i have got a {animal}\nMy {animal}'s name is {name.title()}")
+
+
+describe_pet('dog','max')
+
+
+
+
+def describe_pet(animal, name):
+    print(f"I ve got a {animal}, and its name is {name.title()}")
+
+describe_pet('dog','max')
+describe_pet('rabbit', 'sezar')
+
+def des_pet(animal, name):
+    print(f"I got a\a {animal}. Its name is {name.title()}")
+
+des_pet(animal = 'dog', name = 'max')
+des_pet(name = 'max', animal = 'dog')
+
+
+
+
+
+def des_pet(animal, name):
+    print(f"I got a {animal}\nIts name is {name.title()}")
+
+des_pet('dog', 'max')
+
+def des_pet(animal = 'dog', name):
+    print(f"i got a {animal}\nIts name is {name}")
+des_pet('dog', 'john')   # lesson learnt: Python does not allow putting defaults values first.
+
+
+def des_pet(animal, name = 'max'):
+    print(f"i got a {animal} and its name is {name.title()}")
+
+des_pet('dog',name = 'harry')
+des_pet()
+
+
+
+def full_name1(first, last):
+    full_name = f"{first} {last}"
+    return full_name.title()
+
+#first = input("What is your first name: ")
+#last = input("What is your last name: ")
+full_name1('max', 'collin')
+
+
+def format_the_name(first, last):
+    print(f"{first} {last}")
+ #   return(full_name)
+
+#musician = format_the_name('Jimi', 'Handrix')
+#print(musician)
+format_the_name('JImmy', 'Smith')
+
+# LESSON: WHEN I USED RETURN, I CANT JUST CALL THE FUNCTION USING ITS NAAME AND ARGUMENTS, AND I DONNO WHY
+
+
+# now i know why, before i used to use print inside the function but this time im calling the function and then it is actually returning the result, and im just not printing it. 
+
+def get_formatted(first, middle, last):
+    if middle:
+        full_name = f"{first} {middle} {last}"
+    else:
+        full_name = f"{first} {last}"
+    
+    return full_name.title()
+
+first = input("What is your first name: ")
+middle = input("What is your middle name, [optional]: ")
+last = input("What is your last name: ")
+
+print(get_formatted(first, middle, last))
+
+'''
+
+
+
 
 
 
