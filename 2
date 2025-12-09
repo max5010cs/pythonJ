@@ -1654,4 +1654,1488 @@
 
 # else:
 #     print("You must be over 21 sir")
+# age1 = input("how old are you? ")
+#age2 = input("how old are you? ")
+
+#if int(age1) > 21 and int(age2) > 21:
+ #   print("You are welcome, you can come in!")
+
+#else:
+#          print("You gotta be over 21, sorry!")
+
+#age_0 = 22
+#age_1 = 18
+#if age_0 > 21 or age_2 > 21:
+#    print("True")
+
+#else:
+#    print("False")
+
+#banned_users = ['andrew', 'caroline', 'david']
+#user = 'marie'
+
+#if user not in banned_users:
+#    print(f"{user.capitalize()}, you can post a response if you wish!")
+
+#else:
+#    print(f'You are banned')
+
+'''
+
+age = input("how old are you?")
+if int(age) >= 18:
+    print("You are old enough to vote")
+
+else:
+    print("You need to be 18 or over")
+
+
+age = input("How old are you? :")
+
+if int(age) >= 18:
+    print("You are old enough to vote!")
+    yn = input("Have you registered yet? y/n :")
+
+    if yn == "y" or yn == "n":
+        if yn == "y":
+            print("All right then, good luck")
+        else:
+            print("You would want to register on the next table")
+
+    else:
+        print("Only y/n")
+
+else:
+    print("You gotta be at least 18")
+
+
+
+
+age = input("How old are you? : ")
+
+if int(age) < 4:
+    print("Your admission cost is free")
+elif int(age) < 18:
+    print("Your admssions cost is 25")
+else:
+print("Yours is 40")
+
+age = 19
+
+if age < 4:
+    price = "free"
+
+elif age < 18:
+    price = 25
+
+else:
+    price = 40
+
+print(f'Your admissoin fee is {price}')
+
+
+
+
+age = 98
+if age < 4:
+    price = "free"
+elif age < 18:
+    price = 25
+elif age < 65:
+    price = 40
+else:
+    price = 20
+print(f"Your admission fee is {price}")
+
+game_active = True
+can_edit = False
+print(game_active,can_edit)
+
+car = "subaru"
+print("is car == 'subaru'? I predict True")
+print(car == 'subaru')
+
+
+car = "bugatti"
+print(car == 'bugatti')
+
+model = 'Tuatara'
+print(model.lower() == 'Tuatara' )
+
+'''
+'''
+requested_toppings = ['mushrooms','extra cheese']
+
+if 'mushrooms' in requested_toppings:
+    print('Adding mushrooms')
+if 'papperoni' in requested_toppings:
+    print('Adding papperoni')
+if 'extra cheese' in requested_toppings:
+    print('Adding extracheese')
+'''
+
+'''
+
+requested = ['mushrooms', 'extra cheese']
+for item in requested:
+    if item in requested:
+        print(f"Adding {item}")
+print('Your pizza is ready')   # this seemed lil bit off but still made things easier than it was in previous piece
+'''
+
+'''
+alien_color = "green"
+
+if alien_color == 'green':
+    print('You just earned 5 points')
+
+alien_color = 'red'
+
+if alien_color == 'green':
+    print('You just earned 5 points')
+else:
+    print('You lost the game, gfo.')
+
+   '''
+"""
+
+alien1 = 'red'
+alien2 = 'green'
+alien3 = 'yellow'
+
+if alien1 == 'red':
+    print('You just earned 15 points')
+elif alien1 == 'green':
+    print('You just earned 5 points')
+else:
+    print('You just earned 10 points')
+
+if alien2 == 'red':
+    print('You just earned 15 points')
+elif alien2 == 'green':
+    print('You just earned 5 points')
+else:
+    print('You just earned 10 points')
+
+if alien3 == 'red':
+    print('You just earned 15 points')
+elif alien3 == 'green':
+    print('You just earned 5 points')
+else:
+    print('You just earned 10 points')
+
+
+
+age = input("How old are you? ")
+
+if int(age) < 4:
+    print("Your admission ticked is free!")
+elif int(age) > 4 and int(age) < 18 :
+    print("Your admission ticked costs you $25")
+else:
+    print("Your admissions ticket is $40")
+
+age = input ("What is your age? ")
+
+if int(age) < 4:
+    price = "free"
+elif  int(age) < 18:
+    price = '$25'
+else:
+    price = '$40'
+print(f"Your admission ticket is {price}")
+"""
+'''
+age = input("What is your age? ")
+
+if not age:
+    age = input('Age was not defined\n Exiting...')
+elif int(age) < 4:
+    price = 0
+elif int(age) < 18:
+    price = 25
+elif int(age) > 65:
+    price = 20
+elif int(age) <= 65:
+    price = 40
+else:
+    price = 0
+print(f'Your admission cost is ${price}')
+
+i dont care at least i did what i wanted
+
+
+
+req_toppings = ['mushroom', 'apple', 'extra cheese']
+for i in req_toppings:
+    if i in req_toppings:
+        print(f'Adding {i}...')
+print("Your pizza is ready")
+
+
+requested_toppings = ['mushroom', ' green peppers', 'extra cheese']
+for requested_topping in requested_toppings:
+    print(f'Adding {requested_topping}')
+print('\n Your pizza is ready')
+
+
+
+
+requested_toppings= ['mushroom','green peppers', 'extra cheese']
+for i in requested_toppings:
+    if i == 'mushroom':
+        print(f"Sorry, there is no {i} left")
+    else:
+        print(f'\nAdding {i}...')
+print('\n Your pizza is ready')
+
+
+#1. so firstly i need to ask the client for what they want
+#2. then i need to add them to the list
+#3. if the reseponse is null
+#4. I will finish requesting for items
+#5. then i will check the list if it empy i will ask if they want a plain pizza
+#6. if not i will add each thing one by one
+#7. finish
+
+requested_toppings = []
+topping = input('Welcome sir, what do you want in your pizza? ')
+if topping:
+    requested_toppings.append(topping)
+    print(topping)
+elif requested_toppings and not topping:
+    print('Accepted your requested topping...')
+elif not requested_toppings:
+    confirm = input('Do u really want a plain pizza? y/n')
+    if confirm == 'y':
+        print('Got you')
+    else:
+        print(topping)
+# i tried tho
+
+toppings = []
+while True:
+    topping = input ("What is the frkn topping you want? ")
+    if topping:
+        toppings.append(topping)
+    else:
+        break
+if toppings:
+    print("Got you")
+    for i in toppings:
+        print(f"Adding {i} to your pizza...")
+    print("Here is your pizza with requested toppings!")
+else:
+    print("Plain it is!")
+    print('Here is your requested plain pizzza!')
+
+ # got it , it is working now
+ 
+            
     
+
+
+requested_toppings = []
+
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print(f'Addding {requsted_topping} to your pizza')
+    print('You pizza is ready')
+else:
+    plain = input("So plain one then? ")
+    if plain:
+        print("BRUH")
+    else:
+        print('alright')
+
+        #  weird but book is always right
+
+available_toppings = ['mushrooms','olives','green peppers','pepperoni','pineapple','extra cheese']
+requested_toppings = ['mushrooms','french fries','extra cheese']
+
+for topping in requested_toppings:
+    if topping in available_toppings:
+        print(f'Adding {topping}...')
+    else:
+        print(f'{topping} is not available currently')
+print('\n Your pizza is ready')
+
+
+
+
+# PEP 8 
+# spacing in if statements
+if age < 4 # Try to use single space
+if age<4  # nope
+
+
+# DICTIONARY    example_dictionary = {'color' : 'Green'}
+
+alien_0 = {'name' : 'max', 'car'  : 'bmw', 'color' : 'black', 'engine' : 'v6'}
+
+print(alien_0['name'])
+print(alien_0['car'])
+print(alien_0['engine'])
+print(alien_0['name'], '\n', alien_0['car'], '\n', alien_0['engine'])
+
+
+alien_0 = {'alien_color' : 'green', 'points' : 5}
+new_points = alien_0 ['points']
+print(f'You just earned {new_points} points')
+
+
+
+alien_0 = {'color' : 'green', 'points' : 5}
+print(alien_0)
+
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
+
+
+
+dict_0 = {'car' : 'bw'}
+print(dict_0)
+
+dict_0['engine'] = 'v8'
+print(dict_0)
+
+
+
+
+alien_0 = {}
+print(alien_0)
+
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+print(alien_0)
+
+alien_0 = {'color' : 'green'}
+print(f"{alien_0['color'].title()} is the current color of the alien")
+
+alien_0['color'] = 'yellow'
+print(f"{alien_0['color'].title()} is the new color")
+
+
+
+# lets try to move the alien from its x position
+alien_1 = {'x_position' : 25, 'y_position' : 0, 'speed' : 'medium'}
+print(f"Current position is {alien_1['x_position']}")
+
+if alien_1['speed'] == 'slow':
+    x_move = 1
+elif alien_1['speed'] == 'medium':
+    x_move = 2
+else:
+    x_move = 3
+
+# now i need to apply the new position by adding the x_move to old position(x_position)
+alien_1['x_position'] = alien_1['x_position'] + x_move
+print(f"New position for the alien is {alien_1['x_position']} after change of {x_move} by x vector")
+
+
+
+alien_1 = {'color' : 'green', 'points' : 5}
+print(alien_1)
+
+del alien_1['points']
+print(alien_1)
+
+favourite_lang = {
+        'jen' : 'python',
+        'sarah' : 'c',
+        'max': 'rust',
+        'phil' : 'ruby'
+
+        }
+print(favourite_lang)
+
+
+name = input('What is your name? ')
+fav_lang = input (f'What is your favourite language {name}? ')
+
+dictionary = {}
+dic0tionary[name] = fav_lang
+print(f"{name.title()}'s favourite langauge is {dictionary[name].title()}")
+
+
+
+
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+
+del alien_0['color']
+print(alien_0)
+
+
+favourite_languages = {
+        'jen':'python',
+        'johanna':'ruby',
+        'edward':'ruby',
+        'phil':'rust'
+        }
+
+name = input('Whose fav language do you wanna know? ')
+
+if name in favourite_languages:
+    fav_language = favourite_languages[name].title()
+    print(f"{name.title()}'s favourite language is {fav_language}")
+else:
+    print("Name is required")
+
+
+
+
+alien_0 = {
+        'color':'green',
+        'speed':'slow'
+        }
+print(alien_0['points'])
+
+
+
+alien_0 = {
+        'color':'green',
+        'speed':'slow'
+        }
+print_value = alien_0.get('points','wtf this does not exist bro')
+print(print_value)
+
+
+
+
+
+
+friend_name = {
+        'name':'max',
+        'age':'19',
+        'fav_language':'rust',
+        'hobby':'chess',
+        }
+
+print(friend_name['name'])
+print(friend_name['age'])
+print(friend_name['hobby'])
+print(friend_name['fav_language'])
+
+
+
+#jane = input('What is your favourite language Jane? ')
+#jack = input('What is your favourite language Jack? ')
+#johanna = input('What is your favoutite language Johanna? ')
+#saidakbar = input('What is your favourite language Saidakabar? )
+
+
+list = ['jane','jack','johanna','saidakbar','johnson','fiona']
+dictionary = {
+        }
+for name in list :
+    fav_lang = input(f'What is your favourite language {name.title()} ? ')
+    if fav_lang:
+        dictionary[name] = fav_lang
+    else:
+        print('Lang is required.')
+quest = input('Now whose favourite language do you wanna know? ')
+if quest in dictionary:
+    print(f"{quest.title()}'s favourite language is {dictionary[quest]}")
+else:
+    print("Aight")
+
+
+
+dictionary = {
+        'get()':'We use get when we are not sure smth is in the dictionary',
+        'dictionary[]':' We use this to print the valueof the key we need',
+        'dictionary[]=""': ' we use this when we wanna add new value or change value of the key'
+
+        }
+for names in dictionary:
+    print(names, ' >>> ', dictionary[names])
+
+
+
+user_0 = {
+        'username' : 'Fiona',
+        'first' : 'flowey',
+        'last' : 'fermi'
+        }
+#for a,b in user_0.items():
+ #   print(f'\nKey: {a}')
+  #  print(f'Value: {b}')
+for k,v in user_0.items():
+    print(f"{k}  >>  {v}")    
+
+
+favourite_languages = {
+        'said':'python',
+        'jacob':'rust',
+        'jenny':'ruby'
+        }
+
+for name, language in favourite_languages.items():
+    print(f"\n{name.title()}'s favourite language is {language.title()}")
+
+
+fav_languages = {
+        'jane':'python',
+        'john':'rsut',
+        'smith':'ruby',
+        'ops':'javascript'
+        }
+
+message = ('People who took the poll::')
+print(message)
+for name in fav_languages.keys():
+    print(name.title())
+
+
+
+fav_languages = {
+        'jane':'python',
+        'jack':'rust',
+        'smith':'java'
+        }
+for names in fav_languages.keys():
+    name = names
+    lang = fav_languages[name]
+    print(f"{name.title()}'s favourite language is {lang.title()}")
+
+
+the_poll = {
+        'pal':''
+        }
+#print(the_poll[pal])
+
+if 'pal' not in the_poll.keys():
+    print('Pal, you better take the poll')
+if not the_poll['pal']:
+    print('Pal, you better take it bruh')
+
+
+
+favourite_languages = {
+        'jane':'python',
+        'jake':'rust',
+        'saida':'vue',
+        'john':'java'}
+for name in sorted(favourite_languages):
+    print(f"{name.title()}, Thank you for taking the poll")
+
+
+favourite_languages = {
+        'jane':'rust',
+        'johanna':'ruby',
+        'oper':'java',
+        'rustam':'python'
+        }
+
+print('Here are the values:')
+for values in favourite_languages.values():
+    print(values)
+
+
+
+# when trying to print values, there could be some repeated ones, to print only unique ones we can use set()
+
+langs = {
+        'jane':'rust',
+        'islam':'python',
+        'rustam':'python',
+        'said':'ruby',
+        'akbar':'ruby'
+        }
+print("let's print unique ones using set()")
+for values in set(langs.values()):
+    print(values)
+
+alien_0 = {'color':'green', 'points':5}
+alien_1 = {'color':'yellow','points':3}
+alien_2 = {'color':'red', 'points':1}
+
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+    print(alien)
+
+
+
+# Make an empty list 
+aliens = []
+
+# append multiple aliens using range()
+for alien_number in range(30):
+    new_alien = {'color':'green', 'points':5, 'speed':'slow'}
+    aliens.append(new_alien)
+
+
+
+# print 5 of em
+for alien in aliens[:5]:
+    print(alien)
+print('...')
+
+print(f'Aliens in the list are {len(aliens)} ')
+
+
+
+# create an empty list
+aliens = []
+
+# use range to create multiple aliens
+for aliens_number in range(10):
+    new_alien = {'color':'green', 'points':5, 'speed':'slow'}
+    aliens.append(new_alien)
+
+# use for loop and if to change the values of first 3 aliens
+for alien in aliens[:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['points'] = 10
+        alien['speed'] = 'medium'
+    else:
+        print('error')
+
+ # print first 5 of the aliens
+for alien_ in aliens[:5]:
+    print(alien_)
+
+
+# create an empty list 
+aliens = []
+
+# add 10 aliens usinng range and loop
+for number in range(10):
+    new_alien = {'color':'green', 'speed':'slow', 'points':5}
+    aliens.append(new_alien)
+
+    # loop thought each alien upto third one and then change their value using if/elif
+for update in aliens[:3]:
+    if update['color'] == 'green':
+        update['color'] = 'yellow'
+        update['speed'] = 'medium'
+        update['points'] = 10
+    elif update['color'] == 'yellow':
+        update['color'] = 'red'
+        update['speed'] = 'fast'
+        update['points'] = 15
+for alien in aliens[:5]:
+    print(alien)
+
+
+# store pizza info here in a dictionary
+pizza = {
+        'crust':'thick',
+        'toppings': ['mushrooms', 'extra-cheese']
+        }
+# summarize the order
+print(f"Did you order a {pizza['crust']} - crust pizza, with toppings:")
+for topping in pizza['toppings']:
+    print(topping)
+
+# ask for confirmation
+conf = input("Confirm!...y/n ")
+if conf == 'y':
+    print('Alright it is ready you can take it')
+else:
+    print('error')
+
+
+fav_languages = {
+        'john':['python', 'ruby'],
+        'sara':['java'],
+        'said':['javscript', 'typescript'],
+        'akbar':['C', 'C#', 'C++']
+        }
+for name, languages in fav_languages.items():
+    print(f"\n{name.title()}'s favourite languages are:")
+    for language in languages:
+        print("\t" + language)
+
+
+
+
+# DICTIONARY IN A DICTIONARY
+
+users = {
+        'aenstein': {
+            'first':'alebert',
+            'last':'aenstein',
+            'location':'princeton'
+            },
+        'mcurie': {
+            'first':'marie',
+            'last': 'curie',
+            'location':'paris'
+            }
+        }
+
+
+
+for username, user_info in users.items():
+    username = username 
+    first = user_info['first']
+    last = user_info['last']
+    location = user_info['location']
+
+    print(f"\nUsername: {username}\n\t Full Name: {first} {last}\n\t Location: {location}")
+
+
+
+
+
+message = input('What is your name ? ' )
+print(f'Welcome, {message.title()}.')
+
+
+
+prompt = 'If you tell us who you are, we can personalize the messages for you!'
+prompt += '\nWhat is your name? '
+
+name = input(prompt)
+print(f'Thanks, {name}')
+
+intro = 'Please enter your name so we can adjust messages for you'
+print(intro)
+name_asking_prompt = input ('What is your name? ')
+print(f'Thanks, {name_asking_prompt}')
+
+
+age = input('How old are you? ')
+print(age)
+# when trying print the quotes will NOT be a problem
+#but when trying to use it in some other op then quotes can be a problem for example:
+#    if age > 18:     # this will return an error coz the number enetered by the user is saved as a string with quotes ''
+
+
+age = input ('How old are you? ' )
+if age > 18 :
+    print('You are an adult')   # WRONG
+
+age = int(input ('How old are you? '))
+if int(age) > 18 :  # this is second option
+    print('You are an adult')   # Correct
+
+
+name = input('What is your name? ')
+height = input ('How tall are you, in inches? ')
+
+if int(height) > 48:
+    print(f"You are tall enought to ride, {name.title()} ")
+else:
+    print('You can ride when you little bit older!')
+
+
+################# (%) --- Modulo Operator
+
+number = int(input("Enter a number and i will find you if it is ODD or EVEN_  "))
+if number % 2:
+    print('It is Odd')
+else:
+    print('It is Even')
+
+conf = input('Am i right?_y/n ')
+if conf == 'y':
+    print('I knew it')
+else:
+    print('My bad')
+
+
+# While loops
+
+current_number = 1
+for a in range(100):
+    current_number+=1
+    print(current_number)
+
+
+current_number = 1
+while current_number < 100:
+    current_number+= 1
+    print(current_number)
+
+
+
+
+current_number = 1
+while current_number <=5:
+    print(current_number)
+    current_number+= 1
+  #  print(current_number)
+
+
+prompt = 'Enter whatever you want and i will repeat it for you. '
+prompt+= "Enter 'q' to stop me "
+
+message = ""
+while message != 'q':
+    message = input(prompt)
+    print(message)
+
+print("Eneter whatever you want and i will repeat it for you\nEnter 'q' to stop me" )
+enter = input('$~')
+
+m = ""
+while m != 'q':
+    m = enter
+    print(m)
+
+
+
+
+while True:
+
+    msg = input ("Say whatever or q to quit: ")
+    if msg != 'q':
+         print(msg)
+    else:
+        break
+
+    
+
+#  Using a Flag
+
+active = True
+while active:
+
+    msg = input("Hey say antyhing i will repeat or say q to quit: ")
+    if msg != 'q':
+        print(msg)
+    else:
+        active = 0
+
+
+sentence = "Hello, how are you"
+words = sentence.split()
+print(words)
+
+
+
+string = "apple,banana,orange"
+fruits = string.split(",")
+print(fruits)
+
+
+
+string = "one,two,three,four,five"
+parts = string.split(",", 2)
+print(parts)
+
+multiple_string = "Line 1\n Line2\n Line3"
+lines = multiple_string.split("\n")
+print(lines)
+
+
+
+cars = "bugatti, bmw, audi, tesla"
+msg = cars.split(",", -2)
+print(msg)  # it does not do anything just split(",") happens
+
+
+string = "Hello"
+characters = list(string)
+print(characters)  # i need to remember this coz i thought it would put the Hello into list
+
+
+
+sentence = "           Hello, How are you                  "
+msg = sentence.strip().split()
+print(msg)
+
+
+sentence = "Hello How Are You"
+msg = sentence.lower().split()
+print(msg)
+
+string = "Hello how are you"
+msg = string.split(" ", maxsplit = 0) # maxsplit = 0 == 
+print(msg)
+
+
+words = ["Hello", "World"]
+sentence = "".join(words)
+print(sentence)
+
+words = ["Hello", "World"]
+sentence = " ".join(words)
+print(sentence)
+
+numbers = [1,2,4]
+string = ", ".join(str(number) for number in numbers)
+print(string)
+
+
+words = ['apple', 'banana', 'orange']
+string = ", ".join(words)
+print(string)
+
+words2 = words
+string2 = "-".join(words2)
+print(string2)
+
+
+words = ['Hello', 'World']
+string1 = "".join(words)
+string2 = " ".join(words)
+string3 = ", ".join(words)
+string4 = "\n".join(words)
+
+print(string1)
+print(string2)
+print(string3)
+print(string4)
+
+
+numbers = [1,2,4,4,5,6]
+print(numbers)
+sublist = numbers[1:4]
+print(sublist)
+
+numbers = [1,2,34,56]
+sublist = numbers[:3]
+print(sublist)
+
+
+numbers = [1,2,3,4,5,6,7,8,9]
+print(numbers[::3])
+
+
+string = "Hello, world"
+sub = string[7:]
+print(sub)
+
+string = "Hello, world"
+section = string[4:9]
+print(section)
+
+
+sentence = "Hello World"
+section = sentence[::-1]
+print(section)
+
+
+word = "Python"
+sub = word[-4:]
+print(sub)
+
+
+numbers = [1,2,3,4,5]
+mid = numbers[1:-1]
+print(mid)
+
+sentence = "Hello world"
+sections = sentence[:2] + sentence[2:5]
+print(sections)
+
+numbers = [1,2,3,4,5,6]
+sections = numbers[:3] + numbers[-2:]
+print(sections)
+
+word = "Python"
+s = slice(0,3)
+print(word[s])
+
+s2 = slice(-1)
+print(word[s2])
+
+word = "Python"
+s = slice(-2)
+print(s)   # so basically the slie is some variable that can be reused and takes at least 1 value and upto 3 
+
+
+word = "Python"
+s = slice(-3,-6,-1)
+print(word[s])
+
+word = "Python"
+s = slice(0,None,2)  # start at index 0 and to the end by jumping by 2, so skip one character each time
+print(word[s])
+
+
+word = "Python"
+s= slice(None,None, -1)  # reversing 
+print(word[s])
+
+# tasks
+# 1. Split a sentence into words
+sentence = "Wassup how are you doing these days"
+splits = sentence.split(" ")
+print(splits)
+
+# 2. Split a string line into individual values
+string = "apple,banana,orange"
+splits = string.split(",")
+print(splits)
+for fruit in splits:
+    print(f"\n{fruit}")
+
+
+
+# 3. Join list of words into a sentence
+list1 = ['I', 'do', 'not', 'give', 'a', 'f/']
+sentence = " ".join(list1)
+print(sentence)
+
+# 4. Join a list of numbers as a hypen separated string
+numbers = [1,2,3,4,5]
+joining = "-".join(str(number) for number in numbers)
+print(joining)
+
+
+# 5. Slice the first 3 characters of a string
+string = "Pyton"
+s = slice(0,3)
+first_three = string[s]
+print(first_three)
+
+print(string[slice(0,3)])
+
+
+# 6. Reverse a string using slicing
+string = "Hello world"
+reversing = string[slice(-1,None, -1)]
+print(reversing)
+
+
+
+# 7. Extract every second characrter
+string = "acacacacacaca"
+print(string[slice(0,None,2)])
+print(string[::2])
+print(string.split("c"))
+
+
+
+# 8. Split a sentence and then reverse each word 
+sentence = "Welcome Home Panda"
+
+a = sentence.split(" ") # split each word and put it into a list
+b = sentence[slice(None,None, -1)] # take the word and reverse its order in character level
+c = b.split(" ")  # take the reversed string and put it into a list by splitting by space
+d = " ".join(c) # take the list of reversed characters and put them into one string and use spaces when joining
+
+print(a)
+print(b)
+print(c)
+print(d)
+
+
+
+# 9. Check if a string is a palindrome
+while True:
+
+    ask = input("Tell me anything and i will tell you if it is a Plaindrome or not: ")
+
+    a = ask
+    b = ask[slice(None,None, -1)]
+    if a == b:
+        print("Palindrome")
+    else:
+        print("Not a Palindrome")
+# b3aut1ful
+
+
+# 10. Convert a setence into a title case using split and join
+sentence = "This is not a playground"
+#print(sentence.title())
+splitting = sentence.split(" ")
+joining = " ".join(word.title() for word in splitting)
+print(joining)
+
+
+
+print("Tell me smth and i will repeat it for you.\nEnter q to quit")
+message = ""
+active = 1
+while active:
+    message = input("Enter here: ")
+
+    if message == 'q':
+        active = 0
+    else:
+        print(message)
+
+
+
+print("Enter the city u have visited to.\nEnter q to quit")
+message = ""
+while True:
+    message = input("Enter here: ")
+    if message != 'q':
+        print(f"I would love to visit {message.title()}")
+    else:
+        break
+
+current_number = 0
+
+while current_number < 10:
+    current_number+=1
+    if current_number % 2 == 0:
+        continue
+    else:
+        print(current_number)
+
+
+
+toppings = []
+
+print("Please enter the topping you want in your pizza.\nEnter q when you are done")
+message = ""
+while True:
+    message = input("Enter here: ")
+    if message == 'q':
+        break
+    else:
+        toppings.append(message)
+        print(f"{message.title()} will be added")
+print("Toppings you have listed: ")
+for topping in toppings:
+    print(topping.title())
+
+
+
+number = 0
+while True:
+    number+=1
+    print(number)
+
+
+
+
+
+unconfirmed_users = ['alice', 'bob', 'said', 'akbar']
+confirmed_users = []
+
+while unconfirmed_users:
+   # user = unconfirmed_users[0]
+  #  unconfirmed_users.remove(user)
+
+    user = unconfirmed_users.pop()
+
+    confirmed_users.append(user)
+    print(f"Verified user: {user}")
+
+print(confirmed_users)
+
+
+pets = ['tiger', 'horse', 'cat', 'cow', 'dog', 'cat']
+print(pets)
+
+while 'cat' in pets:
+    pets.remove('cat')
+print(pets)
+
+
+
+# i need to write a program that asks for the name and mountain and then  save them to dcitionary and then print 
+
+# empty dict
+responses = {
+
+        }
+poll_active = 1
+
+while poll_active:
+    name = input("What is your name? ")
+    mountain = input("What is the name of mountain you would like to climb? ")
+    
+    #save results
+    responses[name] = mountain
+
+    # lets aks if there is someone else to answer
+    ask = input("Is there someone else to answer? y/n ")
+    if ask == "y":
+        continue
+    else:
+        poll_active = 0
+#print(responses)
+print("\n ------------- Poll Results --------------\n")
+   
+for name, mountain in responses.items():
+    print(f"{name.title()} would like to climb {mountain.title()}.")
+
+
+def greet_user():
+    print("Hello")
+greet_user()
+
+
+
+def greet_user(username):
+    print(f"Hello {username.title()}")
+name = input('What is your name? ')
+greet_user(name)
+
+
+
+
+
+def message():
+    print("Hello, im learning functons today")
+message()
+
+def fav_book(name):
+    print(f"Your favourite book is saved as {name.title()}")
+
+x = input("What is your favourite book? ")
+fav_book(x)
+
+
+def describe_pet(animal, name):
+    # return he result as
+    print(f"i have got a {animal}\nMy {animal}'s name is {name.title()}")
+
+
+describe_pet('dog','max')
+
+
+
+
+def describe_pet(animal, name):
+    print(f"I ve got a {animal}, and its name is {name.title()}")
+
+describe_pet('dog','max')
+describe_pet('rabbit', 'sezar')
+
+def des_pet(animal, name):
+    print(f"I got a\a {animal}. Its name is {name.title()}")
+
+des_pet(animal = 'dog', name = 'max')
+des_pet(name = 'max', animal = 'dog')
+
+
+
+
+
+def des_pet(animal, name):
+    print(f"I got a {animal}\nIts name is {name.title()}")
+
+des_pet('dog', 'max')
+
+def des_pet(animal = 'dog', name):
+    print(f"i got a {animal}\nIts name is {name}")
+des_pet('dog', 'john')   # lesson learnt: Python does not allow putting defaults values first.
+
+
+def des_pet(animal, name = 'max'):
+    print(f"i got a {animal} and its name is {name.title()}")
+
+des_pet('dog',name = 'harry')
+des_pet()
+
+
+
+def full_name1(first, last):
+    full_name = f"{first} {last}"
+    return full_name.title()
+
+#first = input("What is your first name: ")
+#last = input("What is your last name: ")
+full_name1('max', 'collin')
+
+
+def format_the_name(first, last):
+    print(f"{first} {last}")
+ #   return(full_name)
+
+#musician = format_the_name('Jimi', 'Handrix')
+#print(musician)
+format_the_name('JImmy', 'Smith')
+
+# LESSON: WHEN I USED RETURN, I CANT JUST CALL THE FUNCTION USING ITS NAAME AND ARGUMENTS, AND I DONNO WHY
+
+
+# now i know why, before i used to use print inside the function but this time im calling the function and then it is actually returning the result, and im just not printing it. 
+
+def get_formatted(first, middle, last):
+    if middle:
+        full_name = f"{first} {middle} {last}"
+    else:
+        full_name = f"{first} {last}"
+    
+    return full_name.title()
+
+first = input("What is your first name: ")
+middle = input("What is your middle name, [optional]: ")
+last = input("What is your last name: ")
+
+print(get_formatted(first, middle, last))
+
+
+def full_name(first_name, last_name):
+    # now i need to put them into dictionary
+    person = {
+    'first': first_name,
+    'last': last_name
+    }
+    return person
+
+
+get_full_name = full_name('Jimmy', 'Hawks')
+print(get_full_name)
+
+
+def full_name(first, last, age='NG'):
+    # i want to put them into dictionary
+    person = {
+    'first name' : first,
+    'last name' : last,
+    'age' : age
+    } 
+    return person
+
+
+# lets call the function
+get_full_name = full_name('Jimmy', 'Hawks', '19')
+get_full_name1 = full_name('Akbar', 'Holis')
+
+print(get_full_name)
+print(get_full_name1)
+
+
+
+def get_formatted(first_name, last_name):
+    full_name = f"{first_name} {last_name}"
+
+    return full_name.title()
+
+
+while True:
+    print('Please tell me your first and last name!')
+    f_name = input('What is your first name? :  ')
+    l_name = input('What is your last name? : ')
+
+    get_full_name = get_formatted(f_name, l_name)
+
+    print(f"Hello, {get_full_name}") 
+
+
+
+def greet(lists):
+    for name in lists:
+        greeting = f"Hello, {name.title()}. Welcome to Islands"
+
+        print(greeting)
+        #return greeting
+
+names = ['Johanna', 'akbar', 'hussain', 'umar', 'max']
+
+
+greet_em = greet(names)
+#print(greet_em)
+
+
+# start by defining 2 lists, and we need to move items from one to another
+
+unprinted = ['phone case', 'robot pendant', 'dodecahedron']
+printed = []
+
+# lets try to move items from list 1 to 2
+while unprinted:
+    for items in unprinted:
+        item = unprinted.pop()
+        
+        print(f'Printing {item}...')
+        print('Finished')
+        printed.append(item)
+
+print(printed)
+
+
+
+# firstly define 2 funtions
+
+def printing(list1, list2):
+    while list1:
+        for items in list1:
+            item = list1.pop()
+            print(f"Printing {item}...\nFinished.")
+            list2.append(item)
+        
+    print("Printed these items: ")
+    for items2 in list2:
+     print(items2)
+
+list1 = ['a', 'b', 'c', 'd']
+list2 = []
+
+printing(list1, list2)
+
+
+def make_pizza(*toppings): # this makes a tuple of toppings
+    
+    print('Making pizza with these toppings:')
+    for topping in toppings:
+        print(topping)
+
+
+make_pizza('peperoni')
+make_pizza('shaurma', 'hotdog', 'sausage')
+
+def make_pizza(size, toppings):
+
+    print(f'Making pizza with size {size} and toppings:')
+    for topping in toppings:
+        print(topping)
+
+
+size = input('What size do u want: ')
+toppings = []
+topping = 1
+while topping:
+    topping_asked = input('What topping do u want: ')
+    if topping_asked:
+        toppings.append(topping_asked)
+    else:
+        topping = 0
+
+
+print(size)
+print(toppings)
+
+
+make_pizza(size, toppings)
+
+
+def build_profile (first, last, **user_info):
+    user_info['first_name'] = first
+    user_info['last_name'] = last
+
+    return user_info
+
+user_profile = build_profile('albert', 'einstein', location = 'princeton', age = 18)
+print(user_profile)
+
+
+# here i will start to work with modules so i will create files as needed
+# first task to create a files named 
+#1. pizza.py 
+#and make  a funciton there and call it here
+
+import pizza
+
+pizza.make_pizza(14, 'peperoni')
+pizza.make_pizza(18, 'meat', 'sausage', 'icecream')
+
+'''
+
+
+# importing specific fuctions
+# i can also import specific functions from a module
+# example
+# from pizza.py import function_name or from pizza.py import function_1, function_2...
+
+
+from pizza.py import make_pizza as mp
+
+mp(34, 'nuts')
+
+
+
+
+
+
+
+
+
+
+
+

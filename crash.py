@@ -2959,7 +2959,220 @@ last = input("What is your last name: ")
 
 print(get_formatted(first, middle, last))
 
+
+def full_name(first_name, last_name):
+    # now i need to put them into dictionary
+    person = {
+    'first': first_name,
+    'last': last_name
+    }
+    return person
+
+
+get_full_name = full_name('Jimmy', 'Hawks')
+print(get_full_name)
+
+
+def full_name(first, last, age='NG'):
+    # i want to put them into dictionary
+    person = {
+    'first name' : first,
+    'last name' : last,
+    'age' : age
+    } 
+    return person
+
+
+# lets call the function
+get_full_name = full_name('Jimmy', 'Hawks', '19')
+get_full_name1 = full_name('Akbar', 'Holis')
+
+print(get_full_name)
+print(get_full_name1)
+
+
+
+def get_formatted(first_name, last_name):
+    full_name = f"{first_name} {last_name}"
+
+    return full_name.title()
+
+
+while True:
+    print('Please tell me your first and last name!')
+    f_name = input('What is your first name? :  ')
+    l_name = input('What is your last name? : ')
+
+    get_full_name = get_formatted(f_name, l_name)
+
+    print(f"Hello, {get_full_name}") 
+
+
+
+def greet(lists):
+    for name in lists:
+        greeting = f"Hello, {name.title()}. Welcome to Islands"
+
+        print(greeting)
+        #return greeting
+
+names = ['Johanna', 'akbar', 'hussain', 'umar', 'max']
+
+
+greet_em = greet(names)
+#print(greet_em)
+
+
+# start by defining 2 lists, and we need to move items from one to another
+
+unprinted = ['phone case', 'robot pendant', 'dodecahedron']
+printed = []
+
+# lets try to move items from list 1 to 2
+while unprinted:
+    for items in unprinted:
+        item = unprinted.pop()
+        
+        print(f'Printing {item}...')
+        print('Finished')
+        printed.append(item)
+
+print(printed)
+
+
+
+# firstly define 2 funtions
+
+def printing(list1, list2):
+    while list1:
+        for items in list1:
+            item = list1.pop()
+            print(f"Printing {item}...\nFinished.")
+            list2.append(item)
+        
+    print("Printed these items: ")
+    for items2 in list2:
+     print(items2)
+
+list1 = ['a', 'b', 'c', 'd']
+list2 = []
+
+printing(list1, list2)
+
+
+def make_pizza(*toppings): # this makes a tuple of toppings
+    
+    print('Making pizza with these toppings:')
+    for topping in toppings:
+        print(topping)
+
+
+make_pizza('peperoni')
+make_pizza('shaurma', 'hotdog', 'sausage')
+
+def make_pizza(size, toppings):
+
+    print(f'Making pizza with size {size} and toppings:')
+    for topping in toppings:
+        print(topping)
+
+
+size = input('What size do u want: ')
+toppings = []
+topping = 1
+while topping:
+    topping_asked = input('What topping do u want: ')
+    if topping_asked:
+        toppings.append(topping_asked)
+    else:
+        topping = 0
+
+
+print(size)
+print(toppings)
+
+
+make_pizza(size, toppings)
+
+
+def build_profile (first, last, **user_info):
+    user_info['first_name'] = first
+    user_info['last_name'] = last
+
+    return user_info
+
+user_profile = build_profile('albert', 'einstein', location = 'princeton', age = 18)
+print(user_profile)
+
+
+# here i will start to work with modules so i will create files as needed
+# first task to create a files named 
+#1. pizza.py 
+#and make  a funciton there and call it here
+
+import pizza
+
+pizza.make_pizza(14, 'peperoni')
+pizza.make_pizza(18, 'meat', 'sausage', 'icecream')
+
+
+
+
+# importing specific fuctions
+# i can also import specific functions from a module
+# example
+# from pizza import function_name or from pizza import function_1, function_2...
+
+
+from pizza import make_pizza as mp
+
+mp(34, 'nuts')
+
+
+import pizza as p
+
+p.make_pizza(9, 'peperpni')
+
 '''
+class Dog:
+    # now i will simply attempt to model a dog
+
+    def __init__(self, name, age):
+        #now i need to initislize the name and age attributes
+        self.name = name
+        self.age = age
+
+
+    def sit(self):
+        print(f"Simulating {self.name}'s sitting")
+    def roll_over(self):
+        print(f"Simulating the {self.name}'s rolling over")
+
+
+
+my_dog = Dog("max", 14)
+print(f"My dog's name is {my_dog.name.title()}")
+print(f"My dog's age is {my_dog.age}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
