@@ -3133,7 +3133,7 @@ import pizza as p
 
 p.make_pizza(9, 'peperpni')
 
-'''
+
 class Dog:
     # now i will simply attempt to model a dog
 
@@ -3157,25 +3157,118 @@ print(f"My dog's age is {my_dog.age}")
 
 
 
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def sit(self):
+        print("Sitting")
+    def roll_over(self):
+        print("Rolling over")
+
+my_dog = Dog('max', 9)
+print(f"Hello i got a dog named {my_dog.name.title()} and he is {my_dog.age}")
+
+my_dog.sit()
 
 
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def sit(self):
+        print(f'{self.name} is sitting')
+    def roll_over(self):
+        print(f'{self.name} is not rolling over')
 
 
+my_dog = Dog('max', 14)
+yo_dog = Dog('willie', 13)
+
+print(f"My dog's name is {my_dog.name.title()} and he is {my_dog.age} years old")
+print(f"Your dog's name is {yo_dog.name.title()} and he is {yo_dog.age} years old")
+
+my_dog.sit()
+yo_dog.roll_over()
 
 
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+    def get_descriptive_name(self):
+        full_name = f"{self.year} {self.make} {self.model}"
+        return full_name.title()
 
 
+my_new_car = Car('byd', 'Zeekir', '2026')
+print(my_new_car.get_descriptive_name())
+
+        
+
+class Car :
+    def __init__(self, manufacturer, model, year):
+        self.manufacturer = manufacturer
+        self.model = model
+        self.year = year
+        self.odometer_reading = 0
+
+    def get_descriptive_name(self):
+        full_name = f"{self.year} {self.manufacturer} {self.model}"
+        return full_name
+    def read_odometer(self):
+        print(f"This {self.model.title()} has {self.odometer_reading} miles on it")
 
 
+new_car = Car('byd', 'zeekr', '2026')
+print(new_car.get_descriptive_name().title())
+
+new_car.read_odometer()
 
 
+class Car:
+
+    def __init__(self, model):
+        self.model = model
+        self.odometer = 0
+
+    def get_model(self):
+        print(f"model is {self.model}")
+
+    def read_odometer(self):
+        print(f'{self.odometer}')
 
 
+my_car = Car('zeekr')
+
+my_car.get_model()
+my_car.read_odometer()
+
+my_car.odometer = 500
+my_car.read_odometer()
+'''
+        
+class Car:
+    def __init__(self, model):
+        self.model = model
+        self.odometer = 0
+
+    def get_model(self):
+        print(f"Model is {self.model}")
+
+    def get_odometer(self):
+        print(f"It is {self.odometer}")
+
+    def update_odometer(self, value):
+        self.odometer = value
 
 
+my_car = Car('audi')
+my_car.get_model()
+my_car.get_odometer()
 
-
-
-
-
+my_car.update_odometer(20)
+my_car.get_odometer()
 
