@@ -3248,7 +3248,7 @@ my_car.read_odometer()
 
 my_car.odometer = 500
 my_car.read_odometer()
-'''
+
         
 class Car:
     def __init__(self, model):
@@ -3271,4 +3271,63 @@ my_car.get_odometer()
 
 my_car.update_odometer(20)
 my_car.get_odometer()
+
+
+class Car:
+    def __init__(self, model):
+        self.model = model
+        self.mileage = 0
+    def get_model(self):
+        print(f"Model is {self.model} ")
+    def update_mileage(self, value):
+        if value > self.mileage:
+            self.mileage = value
+        else:
+            print("Hell nah bruh")
+
+my_car = Car('Zeekr')
+
+my_car.get_model()
+print(my_car.mileage)
+
+my_car.update_mileage(23)
+print(my_car.mileage)
+
+my_car.update_mileage(20)
+print(my_car.mileage)
+
+my_car.update_mileage(25)
+print(my_car.mileage)
+
+
+my_car.update_mileage(23)
+print(my_car.mileage)
+'''
+class Car:
+    def __init__(self, model):
+        self.model = model
+        self.petrol = 20
+    def get_model(self):
+        print(f"Model is {self.model}")
+    def get_petrol(self):
+        print(f'{self.model.title()} has {self.petrol} left.')
+my_car1 = Car('Zeekr')
+#my_car.get_model()
+my_car1.get_petrol()
+
+
+
+class e_car(Car):
+    def __init__(self, model):
+        super().__init__(model)
+        self.battery = 50
+    def get_battery(self):
+        print(f"Battery is {self.battery}")
+    def get_petrol(self):
+        print(f'{self.model.title()} does not run on petrol.')
+my_car2 = e_car('Tesla')
+my_car2.get_petrol()
+
+
+
 
