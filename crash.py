@@ -3302,7 +3302,7 @@ print(my_car.mileage)
 
 my_car.update_mileage(23)
 print(my_car.mileage)
-'''
+
 class Car:
     def __init__(self, model):
         self.model = model
@@ -3327,6 +3327,241 @@ class e_car(Car):
         print(f'{self.model.title()} does not run on petrol.')
 my_car2 = e_car('Tesla')
 my_car2.get_petrol()
+
+
+string_data = "abc"
+char1, char2 = string_data   # expecting less or more than given values will cause an error
+print(char1)
+
+
+
+data = [1,2,3]
+a, _, last_element = data
+print(_)
+
+tuple = (1,2,3,4,5)
+_,_,a,_,b = tuple
+print(_)
+
+nested_tuple = ((1,2), (3,4))
+(a,b), (c,d) = nested_tuple
+print(a,d)
+
+nested_list = [[1,2], [3,4]]
+[[a,b], [c,d]] = nested_list
+print(a)
+
+list_of_tuples = [(1, 'one'), (2, 'two'), (3, 'three')]
+for number, word in list_of_tuples:
+    print(number, word)
+
+data = [1,2,3,4,5]
+first, *rest, last = data
+print(*rest)   # with * i will get normal results and without i will get extracted as a list
+
+matrix = [[1,2,3], [4,5,6], [7,8,9]]
+for row in matrix:
+    a,b,c = row
+    print(a)
+
+
+matrix_form = [
+[
+1,
+2,
+3
+],
+[
+4,
+5,
+6
+],
+[
+7,
+8,
+9
+]
+]
+
+for row in matrix_form:
+    a,b,c = row
+    print(a)
+
+matrix_logic_row = [
+[1,2,3],
+[4,5,6],
+[7,8,9]
+]
+
+for row in matrix_logic_row:
+    a,b,c = row
+    print(a,b,c)
+
+
+fruits = ['apple', 'banana', 'orange']
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+fruits = ['apple', 'banana', 'orange']
+
+for index, fruit in enumerate(fruits, start=1):
+    print(index, fruit)
+
+
+word = 'Python'
+for index, char in enumerate(word):
+    print(index, char)
+
+for index, char in enumerate('Python', start=5):
+    print(index, char)
+
+coordinates = [(1,2), (3,4), (5,6)]
+for index, (x,y) in enumerate(coordinates):
+    print(index, x, y)
+
+fruits = ['apple', 'ornge' , 'banan']
+for index, fruit in enumerate(fruits, start = 3):
+    if 'a' in fruit:
+        print(index, fruit)
+
+fruits = ['apple', 'orange', 'banan']
+
+index = 0
+while index < len(fruits):
+    print(index, fruits[index])
+    index+=1
+
+fruits = ['apple', 'ornge', 'banan']
+#print(fruits)
+#list1 = reversed(fruits)
+#print(list1)
+
+for index, fruit in enumerate(reversed(fruits)):
+    print(index, fruit)
+
+fruits = ['apple', 'orange', 'banan']
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+    if fruit == 'orange':
+        break
+
+
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+
+zipped_list = zip(list1, list2)
+
+print(list(zipped_list)) # i will get a tuple nested into a list
+
+
+names = ['Alice', 'Bob', 'John']
+ages = [20,30,25]
+combined = zip(names, ages)
+
+for name, age in combined:
+    print(f"{name} is {age} years old")
+
+print(list(combined))
+
+for name, age in combined:
+    print(f"{name} is {age} years old")
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+
+for item1, item2 in zip(list1, list2):
+    print(item1, item2)
+
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+zipped = zip(list1, list2)
+#print(list(zipped))
+unzipped1, unzipped2 = zip(*zipped)
+
+print(unzipped1)
+
+
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+zipped = zip(list1,list1)
+print(list(zipped))
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+
+zipped_range = zip(range(4,5), list2)   # if i use range it makes a list of numbers and then prints whatever it zips, no errors even if range is less
+print(list(zipped_range))
+
+list1 = [1,2]
+list2 = ['a', 'b', 'c']
+zipped = zip(list1,list2)
+print(list(zipped))                 # GR: zip will print whatever it zips.
+
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+list3 = ['x', 'y', 'z']
+
+zipped = zip(list1,list2,list3)
+print(list(zipped))
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+
+zipped = zip(range(len(list1)), list1)
+print(list(zipped))
+
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+
+for index, (item1, item2) in enumerate(zip(list1, list2)):
+    print(index, item1, item2)
+
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+list3 = ['x', 'y', 'z']
+
+for index, (item1, item2, item3) in enumerate(zip(list1, list2, list3), 9):
+    print(index, item1, item2, item3)
+
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+list3 = ['x', 'y', 'z']
+start_index = 9
+for index, (item1, item2, item3) in enumerate(zip(list1, list2, list3), start = start_index):
+    print(index, item1, item2, item3)
+'''
+
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+list3 = ['x', 'y', 'z']
+list4 = ['p', 'q']
+
+for index, (item1, item2, item3, item4) in enumerate(zip(list1, list2, list3, list4), start=5):
+    print(index, item1, item2, item3, item4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
