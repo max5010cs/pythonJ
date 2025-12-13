@@ -3538,7 +3538,7 @@ list3 = ['x', 'y', 'z']
 start_index = 9
 for index, (item1, item2, item3) in enumerate(zip(list1, list2, list3), start = start_index):
     print(index, item1, item2, item3)
-'''
+
 
 list1 = [1,2,3]
 list2 = ['a', 'b', 'c']
@@ -3547,6 +3547,62 @@ list4 = ['p', 'q']
 
 for index, (item1, item2, item3, item4) in enumerate(zip(list1, list2, list3, list4), start=5):
     print(index, item1, item2, item3, item4)
+
+
+
+class Car:
+    def __init__(self, model):
+        self.model = model
+    def get_model(self):
+        print(f"Model is {self.model.title()}")
+my_car = Car('bugatti')
+#my_car.get_model()
+
+class Battery:
+    def __init__(self, battery=75):
+        self.battery = battery
+    def get_battery(self):
+        print(f'Battery is {self.battery}')
+
+class e_car(Car):
+    def __init__(self, model):
+        super().__init__(model)
+        self.battery = Battery()
+
+
+
+my_car = e_car('Lexus')
+my_car.get_model()
+my_car.battery.get_battery()
+
+
+from car import Car
+
+my_car = Car('bmw m5', 2025, 'bmw')
+my_car.get_model()
+my_car.get_name()
+my_car.get_odometer()
+my_car.update_odometer()
+my_car.get_odometer()
+
+# PYTHON STANDARD LIBRARY
+
+from random import randint
+
+number = randint(1,4)
+print(number)
+
+'''
+from random import choice
+
+list1 = ['akbar', 'leyle', 'sunnat', 'bob', 'alex', 'max']
+while 1:
+    print(choice(list1))
+
+
+
+
+
 
 
 
